@@ -22,6 +22,12 @@ let otherBookSummary = getSummary(otherBook)
 
 console.log(bookSummary.pageCountSummary)
 
+// ** create a function that returns an object
+// ** take farenheight in - return an object with F, C and K
+
+// ** C = (F -32) * (5/9)
+// ** K = (F + 459.67) * (5/9)
+
 
 
 
