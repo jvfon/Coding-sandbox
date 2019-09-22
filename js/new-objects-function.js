@@ -12,11 +12,9 @@ let otherBook = {
 
 let getSummary = function (book) {
    return { 
-   summary: `${book.title} by $book.author}`
-   pageCountSummary: `${book.title} is ${book.pageCount} pages long.`
-}
-
-console.log(`${book.title} by $book.author}`)
+      summary: `${book.title} by ${book.author}`
+      pageCountSummary: `${book.title} is ${book.pageCount} pages long.`
+   }
 }
 
 let bookSummary = getSummary(myBook)
