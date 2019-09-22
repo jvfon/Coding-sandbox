@@ -42,7 +42,7 @@ let temp = function(far) {
 let startFar = far    */
 
 
-let greetUser = function() {
+/* let greetUser = function() {
    console.log("Welcome User!")
 }
 
@@ -59,20 +59,28 @@ console.log(sqNum)
 
 //-----------------------------------------------
 
-let percentage = function(theNum) {
+/*  let percentage = function(theNum) {
    fraction = theNum / 100
 }
 
 let resultPer = percentage(50)
-console.log(fraction)
+console.log(fraction)    
 
 //--------------------------------------------------
 
-let subNum = function(numChoose) {
+/* let subNum = function(numChoose) {
    minusFive = numChoose - 5
 }
 
 let getNum = subNum(45)
-console.log(minusFive)
+console.log(minusFive)   */
 
 //-------------------------------------------------
+
+let add = function (a, b) {
+   return a + b
+}
+
+let result = add(1, 2)
+console.log(result)
+
