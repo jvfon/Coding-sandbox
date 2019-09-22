@@ -1,4 +1,4 @@
-let myBook = {
+/* let myBook = {
    title: '1984',
    author: 'George Orwell',
    pageCount: 326,
@@ -39,11 +39,23 @@ let temp = function(far) {
 
 }
 
-let startFar = far
+let startFar = far    */
 
 
+let greetUser = function() {
+   console.log("Welcome User!")
+}
 
+greetUser()
 
+//------------------------------------------------
+
+let squared = function(orgNum) {
+   sqNum = orgNum * orgNum
+}
+
+let result = squared(2)
+console.log(sqNum)
 
 
 
