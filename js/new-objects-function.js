@@ -57,66 +57,22 @@ let squared = function(orgNum) {
 let result = squared(2)
 console.log(sqNum)
 
+//-----------------------------------------------
 
+let percentage = function(theNum) {
+   fraction = theNum / 100
+}
 
+let resultPer = percentage(50)
+console.log(fraction)
 
+//--------------------------------------------------
 
+let subNum = function(numChoose) {
+   minusFive = numChoose - 5
+}
 
+let getNum = subNum(45)
+console.log(minusFive)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//-------------------------------------------------
