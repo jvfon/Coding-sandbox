@@ -84,3 +84,11 @@ let add = function (a, b) {
 let result = add(1, 2)
 console.log(result)
 
+//------------------------------------------------
+
+let sub = function (d, e) {
+   return d - e
+}
+
+let subResult = sub(5, 2)
+console.log(subResult)
