@@ -134,7 +134,7 @@ let getTemps = function(farenheit) {
 let useThisTemp = getTemps(32)
 console.log(cels)
 console.log(kel)
-console.log(initialTemp)  */
+console.log(initialTemp)  
 
 //-----------------------------------------
 
@@ -152,5 +152,28 @@ let startTemp = function(farenheit) {
    }
 }
 
-console.log(celsTemp)
+console.log(celsTemp)   */
 
+let myBook = {
+   title: '1984',
+   author: 'George Orwell',
+   pageCount: 326,
+}
+
+let otherBook = {
+   title: 'A Peoples History',
+   author: 'Howard Zinn',
+   pageCount: 723,
+}
+
+let getSummary = function (book) {
+   return { 
+      summary: `${book.title} by ${book.author}`,
+      pageCountSummary: `${book.title} is ${book.pageCount} pages long.`,
+   }
+}
+
+let bookSummary = getSummary(myBook)
+let otherBookSummary = getSummary(otherBook)
+
+console.log(bookSummary.pageCountSummary)
