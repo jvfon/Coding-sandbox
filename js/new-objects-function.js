@@ -109,7 +109,7 @@ let keepScore = function(name, score) {
 }
 
 let top = keepScore('Will', 120)
-console.log(top) */
+console.log(top) 
 
 //----------------------------------------
 
@@ -118,7 +118,39 @@ let addingNumbers = function(a, b) {
 }
 
 let theNumbers = addingNumbers(1, 9)
-console.log(formula)
+console.log(formula)  
 
 //------------------------------------------
+
+let getTemps = function(farenheit) {
+   initialTemp = farenheit
+   cels = (farenheit -32) * (5/9)
+   kel = (farenheit + 459.67) * (5/9)
+   return {
+
+   }
+}
+
+let useThisTemp = getTemps(32)
+console.log(cels)
+console.log(kel)
+console.log(initialTemp)  */
+
+//-----------------------------------------
+
+let tempFarenheit = {
+   cold: 0,
+   warm: 85,
+   hot: 95,
+}
+
+let startTemp = function(farenheit) {
+   cels = (farenheit -32) * (5/9)
+   kel = (farenheit + 459.67) * (5/9)
+   return {
+      celsTemp: `When Farenheit = ${tempFarenheit.cold}`
+   }
+}
+
+console.log(celsTemp)
 
