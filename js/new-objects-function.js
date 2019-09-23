@@ -91,14 +91,34 @@ let sub = function (d, e) {
 }
 
 let subResult = sub(5, 2)
-console.log(subResult) */
+console.log(subResult) 
 
 //--------------------------------------------
 
-let getScoreText = function(name = 'Joe', score = 120) {
-   console.log(name)
-   console.log(score)
+let getScoreText = function(name, score) {
+   return 'Name: ' + name + ' Score ' + score
 }
 
-let scoreText = getScoreText()
-/*console.log(scoreText)  */
+let scoreText = getScoreText('Joe', 100)
+console.log(scoreText)
+
+//-----------------------------------------
+
+let keepScore = function(name, score) {
+   return 'Name: ' + name + ' Score: ' + score
+}
+
+let top = keepScore('Will', 120)
+console.log(top) */
+
+//----------------------------------------
+
+let addingNumbers = function(a, b) {
+   formula = a + b
+}
+
+let theNumbers = addingNumbers(1, 9)
+console.log(formula)
+
+//------------------------------------------
+
