@@ -77,7 +77,7 @@ console.log(minusFive)   */
 
 //-------------------------------------------------
 
-let add = function (a, b) {
+/* let add = function (a, b) {
    return a + b
 }
 
@@ -91,4 +91,14 @@ let sub = function (d, e) {
 }
 
 let subResult = sub(5, 2)
-console.log(subResult)
+console.log(subResult) */
+
+//--------------------------------------------
+
+let getScoreText = function(name = 'Joe', score = 120) {
+   console.log(name)
+   console.log(score)
+}
+
+let scoreText = getScoreText()
+/*console.log(scoreText)  */
