@@ -144,15 +144,19 @@ let tempFarenheit = {
    hot: 95,
 }
 
+
+
 let startTemp = function(farenheit) {
-   cels = (farenheit -32) * (5/9)
-   kel = (farenheit + 459.67) * (5/9)
+   cels = (farenheit -32) * (5/9),
+   kel = (farenheit + 459.67) * (5/9),  
    return {
-      celsTemp: `When Farenheit = ${tempFarenheit.cold}`
+      celsTemp: `When Farenheit  ${tempFarenheit.cold}`,
    }
 }
 
-console.log(celsTemp)   */
+console.log(celstemp)  
+
+
 
 let myBook = {
    title: '1984',
@@ -176,4 +180,16 @@ let getSummary = function (book) {
 let bookSummary = getSummary(myBook)
 let otherBookSummary = getSummary(otherBook)
 
-console.log(bookSummary.pageCountSummary)
+console.log(bookSummary.pageCountSummary)  */
+
+//-------------------------------------------
+
+
+
+
+
+
+
+
+
+
