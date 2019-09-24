@@ -184,10 +184,16 @@ console.log(bookSummary.pageCountSummary)  */
 
 //-------------------------------------------
 
+let convertFahrenheit = function(fahrenheit) {
+   return { // ** creating an object here
+      fahrenheit: fahrenheit, // ** fahrenheit property gets its value from the fahrenheit argument
+      kel: (fahrenheit + 459.67) * (5/9), 
+      cel: (fahrenheit - 32) * (5/9),
+   }
+}
 
-
-
-
+let temps = convertFahrenheit(74)
+console.log(temps)
 
 
 
