@@ -189,7 +189,7 @@ console.log(bookSummary.pageCountSummary)  */
 
 // C = (F -32) * (5/9)
 // K = (F + 459.67) * (5/9)
-
+/*
 let convertFahrenheit = function(fahrenheit) {
    return { // ** creating an object here
       fahrenheit: fahrenheit, // ** fahrenheit property gets its value from the fahrenheit argument
@@ -199,14 +199,26 @@ let convertFahrenheit = function(fahrenheit) {
 }
 
 let temps = convertFahrenheit(74)
-console.log(temps)
+console.log(temps)    */
 
-
-let convertFahrenheit = function(far) {
-   return {
-      far: fahrenheit,
-      kel: (fahrenheit + 459.67 * (5/9)),
-      Cel: (fahrenheit -32) * (5/9),
+/*
+let convertFahrenheit = function(fahrenheit) {
+   return { // ** creating an object here
+      fahrenheit: fahrenheit, // ** fahrenheit property gets its value from the fahrenheit argument
+      kel: (fahrenheit + 459.67) * (5/9), 
+      cel:  (fahrenheit - 32) * (5/9),
+   }
 }
 
+let temps = convertFahrenheit(32)
+console.log(temps)  
+*/
 
+
+
+let inNout = function(randomNumber) {
+   randomNumber = randonNumber * 5
+}
+
+let newNumber = inNout(5)
+console.log(randmNumber)
