@@ -216,9 +216,9 @@ console.log(temps)
 
 
 
-let inNout = function(randomNumber) {
-   randomNumber = randonNumber * 5
+let inNout = function(oneNumber) {
+   result = oneNumber * 5
 }
 
-let newNumber = inNout(5)
-console.log(randmNumber)
+let newNumber = inNout(10)
+console.log(result)
