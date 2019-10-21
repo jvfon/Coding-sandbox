@@ -212,13 +212,21 @@ let convertFahrenheit = function(fahrenheit) {
 
 let temps = convertFahrenheit(32)
 console.log(temps)  
-*/
 
-
+//-----------------------------
 
 let inNout = function(oneNumber) {
    result = oneNumber * 5
 }
 
 let newNumber = inNout(10)
-console.log(result)
+console.log(result) */
+
+//-------------------------------
+
+let newThing = function(a) {
+   bb = a
+}
+
+let cc = newThing(aha)
+console.log(bb)
