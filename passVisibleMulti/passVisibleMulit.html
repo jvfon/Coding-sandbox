@@ -52,7 +52,9 @@
 	</form>
 
 	<script>
-		// Your code goes here...
+		// Get the password fields and toggle checkbox
+        var passwords = Array.prototype.slice.call(document.querySelectorAll('[type="password"]'));
+        var toggle = document.querySelector('#show-passwords');
 	</script>
 </body>
 </html>
