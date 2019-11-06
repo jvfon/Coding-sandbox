@@ -75,7 +75,13 @@
 			// listen to click events on the toggle
 			toogle.addEventListener('click', function(event) {
 
-				
+				// if the toggle is checked, change the type to "text"
+				// otherwise, change it back to "password" 
+				if (toogle.checked) {
+					password.type = 'text';
+				} else {
+					password.type = 'password';
+				}
 			})
 		});
     }, false);
