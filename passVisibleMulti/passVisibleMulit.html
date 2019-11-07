@@ -52,39 +52,37 @@
 	</form>
 
 	<script>
-		// Get the password fields and toggle checkbox
-		var passwords = Array.prototype.slice.call(document.querySelectorAll('[type="password"]'));
-		var toggle = document.querySelector('#show-passwords');
+	// Get the password fields and toggle checkbox
+	var passwords = Array.prototype.slice.call(document.querySelectorAll('[type="password"]'));
+	var toggle = document.querySelector('#show-passwords');
 
     // Next, I attached a click event listener to the toggle element.
 
-    // Listen for click events on the toggle
-    toggle.addEventListener('click', function (event) {
+	// Listen for click events on the toggle
+	toggle.addEventListener('click', function (event) {
+	
+		// Get the password fields and toggle checkbox
+var passwords = Array.prototype.slice.call(document.querySelectorAll('[type="password"]'));
+var toggle = document.querySelector('#show-passwords');
 
-	    // Loop through each password field
-		passwords.forEach(function (password) {
+// Listen for click events on the toggle
+toggle.addEventListener('click', function (event) {
 
-		    // If the toggle is checked, change the type to "text"
-		    // Otherwise, change it back to "password"
-			if (toggle.checked) {
-				password.type = 'text';
-			} else {
-				password.type = 'password';
-			}
+	// Loop through each password field
+	passwords.forEach(function (password) {
 
-			// listen to click events on the toggle
-			toogle.addEventListener('click', function(event) {
+		// If the toggle is checked, change the type to "text"
+		// Otherwise, change it back to "password"
+		if (toggle.checked) {
+			password.type = 'text';
+		} else {
+			password.type = 'password';
+		}
 
-				// if the toggle is checked, change the type to "text"
-				// otherwise, change it back to "password" 
-				if (toogle.checked) {
-					password.type = 'text';
-				} else {
-					password.type = 'password';
-				
-			})
-		});
-    }, false);
+	});
+
+
+	}, false);
 	</script>
 </body>
 </html>
