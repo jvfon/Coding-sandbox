@@ -53,7 +53,23 @@
 	</form>
 
 	<script>
-
+		// Get the password field and toggle checkbox
+		var passwords = Array.prototype.slice.call(document.querySelectorAll('[type="password"]'));
+		var toggle = document.querySelector('#show-passwords');
+		
+		// Listen for click events on the toggle
+		toggle.addEventListener('click', function (event) {
+			// Loop through each password field
+			passwords.forEach(function (password) {
+				// If the toggle is checked, change the type to "text"
+				// Otherwise, change it back to "password"
+				if (toggle.checked) {
+					password.type = 'text';
+				} else {
+					password.type = 'password';
+				}
+			});
+		}, false);
 	</script>
 </body>
 </html>
