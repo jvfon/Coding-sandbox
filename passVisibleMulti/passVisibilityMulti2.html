@@ -41,12 +41,7 @@
 			<input type="password" name="new-password" id="new-password">
 		</div>
 
-		<div>
-			<label for="show-passwords">
-				<input type="checkbox" name="show-passwords" id="show-passwords">
-				Show passwords
-			</label>
-		</div>
+
 
 		<p>
 			<button type="submit">Change Passwords</button>
@@ -54,7 +49,9 @@
 	</form>
 
 	<script>
-
+		// get the password fields and toggle checkboxes
+        var passwords = Array.prototype.slide.call(document.querySelectorAll('[type="password"]'));
+        var toggle = document.querySelectorAll('#show-passwords');
 	</script>
     
 </body>
