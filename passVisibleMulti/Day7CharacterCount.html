@@ -29,15 +29,15 @@
 	<p>You've written <strong><span id="character-count">0</span> characters</strong>.</p>
 
 	<script>
+
 		// Get the text area and character count elements
-		var text = document.querySelector('#text');
+		var texts = document.querySelector('#text');
 		var charCount = document.querySelector('#character-count');
 		// Listen for changes to the text area content
 		text.addEventListener('input', function () {
 			// Display the characters count
-			charCount.textContent = text.value.length;
+			charCount.textContent = texts.value.length;
 		}, false);
-        
 	</script>
 </body>
 </html>
