@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;    /* shows the true size of divs */
+}
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: capitalize;
+}
+h3 {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    text-transform: capitalize;
+}
+#first {
+    display: inline-block; /* makes children appear horizontally next to each other */
+    height: 200px;
+    width: 200px;
+}
+p {
+    margin: 0 auto; /* centers text */
+    width: 500px;
+    text-align: justify;
+    line-height: 1.5; /* 1.5 times height of the font */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    padding:12px;
+}
+/* ------------------------------------------------------------ */
+
+html {
+    font-family: sans-serif;
+}
+header {
+    background: #37538C;
+}
+header .logo-area {
+    color: white;
+    display: inline-block;
+}
+header .logo-area a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+header .menu {
+    display: inline-block;
+}
+header .menu ul li {
+    display: inline-block;
+}
+header .icon-links {
+    display: inline-block;
+}
+header .icon-links ul li {
+    display: inline-block;
+}
+header .icon-links .quick-options {
+    display: inline-block;
+}
+header .icon-links .privacy {
+    display: inline-block;
+}
+header .search-area {
+    display: inline-block;
+}
+header .search-area ul li {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
