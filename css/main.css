@@ -36,21 +36,25 @@ header {
     background: #37538C;
     padding: 15px;
 }
+header a {
+    color: white;
+    text-decoration: none;
+}
 header .logo-area {
     color: white;
     display: inline-block;
     width: 20%;
+    margin-left: -4px;
 }
 header .logo-area a {
     color: white;
     text-decoration: none;
     font-size: 20px;
-}}
+}
 header .menu {
     display: inline-block;
-    background: white;
     width: 20%;
-    margin-left: 3px; /* giving space to the left btwn divs */
+    margin-left: -4px;
 }
 header .menu ul li {
     display: inline-block;
@@ -58,19 +62,25 @@ header .menu ul li {
 header .icon-links {
     display: inline-block;
     width: 20%;
+    margin-left: -4px;
 }
 header .icon-links ul li {
     display: inline-block;
+    
 }
 header .icon-links .quick-options {
     display: inline-block;
+    margin-left: -4px;
 }
 header .icon-links .privacy {
     display: inline-block;
+    margin-left: -4px;
 }
 header .search-area {
     display: inline-block;
     width: 40%;
+    margin-left: -4px;
+    text-align: right;
 }
 header .search-area ul li {
     display: inline-block;
