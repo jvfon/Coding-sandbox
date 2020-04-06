@@ -55,6 +55,7 @@ header .menu {
     display: inline-block;
     width: 20%;
     margin-left: -4px;
+    border-right: 1px solid rgba(255, 255, 255, .5);
 }
 header .menu ul li {
     display: inline-block;
@@ -63,6 +64,7 @@ header .icon-links {
     display: inline-block;
     width: 20%;
     margin-left: -4px;
+    padding-left: 20px;
 }
 header .icon-links ul li {
     display: inline-block;
