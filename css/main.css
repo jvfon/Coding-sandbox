@@ -114,10 +114,13 @@ header .search-area ul li {
 #top-area {
     padding: 200px 15px 90px 15px;
 }
-#top-area .profile-info .user-image {
-    
+#top-area .profile-info .user-img {
+    padding: 10px;
+    display: inline-block;
 }
-
+#top-area .profile-info .user-img img {
+    border-radius: 50%;
+}
 
 
 
