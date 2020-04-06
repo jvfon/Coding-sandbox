@@ -32,6 +32,9 @@ p {
 html {
     font-family: sans-serif;
 }
+/*
+////////////////////////////////////////////////////////////////////////////
+*/
 header {
     background: #37538C;
     padding: 15px;
@@ -104,6 +107,16 @@ header .search-area ul li {
     display: inline-block;
 }
 
+/*
+////////////////////////////////////////////////////////////////////////////
+*/
+
+#top-area {
+    padding: 200px 15px 90px 15px;
+}
+#top-area .profile-info .user-image {
+    
+}
 
 
 
