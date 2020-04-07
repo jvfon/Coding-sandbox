@@ -28,7 +28,9 @@ p {
     padding:12px;
 }
 /* ------------------------------------------------------------ */
-
+* {
+    text-decoration: none;
+}
 html {
     font-family: sans-serif;
 }
@@ -113,7 +115,8 @@ header .search-area ul li {
 
 #top-area {
     padding: 200px 15px 90px 15px;
-    background: url(https://www.wallpapers13.com/wp-content/uploads/2018/06/Bad-Goisern-Hallst%C3%A4tter-See-Lake-in-Salzkammergut-Austria-Night-Landscape-Desktop-HD-Wallpaper-For-PC-Tablet-And-Mobile-3840x2160.jpg) no-repeat center center fixed; 
+    background: url(https://www.wallpapers13.com/wp-content/uploads/2018/06/Bad-Goisern-Hallst%C3%A4tter-See-Lake-in-Salzkammergut-Austria-Night-Landscape-Desktop-HD-Wallpaper-For-PC-Tablet-And-Mobile-3840x2160.jpg) 
+        no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -128,6 +131,27 @@ header .search-area ul li {
 }
 #top-area .profile-info .user-details {
     display: inline-block;
+    vertical-align: top;
+}
+#top-area .profile-info .user-details h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 80px;
+}
+#top-area .profile-info .user-details a {
+    display: inline-block;
+    margin-left: -4px;
+    width: 50%;
+    background: rgba(255, 255, 255, .5);
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
 
 
