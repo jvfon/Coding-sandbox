@@ -160,6 +160,18 @@ header .search-area ul li {
     background: #08a2fc; /* background color changes when curser hover over element */
 }
 
+#content-area {
+
+}
+#content-area .side-column{
+    width: 35%;
+    padding: 2.5%;
+    background: red;
+    height: 600px;
+}
+#content-area .main-area{
+    
+}
 
 
 
