@@ -132,17 +132,19 @@ header .search-area ul li {
 #top-area .profile-info .user-details {
     display: inline-block;
     vertical-align: top;
+    padding-left: 20px;
 }
 #top-area .profile-info .user-details h3 {
     color: white;
     font-size: 24px;
     font-weight: 300;
     margin-top: 80px;
+    margin-bottom: 10px;
 }
 #top-area .profile-info .user-details a {
     display: inline-block;
-    margin-left: -4px;
-    width: 50%;
+    margin-left: 5px;
+    width: 49%;
     background: rgba(255, 255, 255, .5);
     text-align: center;
     text-transform: uppercase;
@@ -152,6 +154,10 @@ header .search-area ul li {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+    transition: background .4s ease-in-out;
+}
+#top-area .profile-info .user-details a:hover {
+    background: #08a2fc; /* background color changes when curser hover over element */
 }
 
 
