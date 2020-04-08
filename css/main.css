@@ -164,10 +164,21 @@ header .search-area ul li {
     background: #fafafa;
     overflow: auto;
     padding: 50px 0;
+    
 }
 
 #content-area .widget-box{
     background: #fff;
+    border-radius: 3px;
+    margin: 0 0 15px 0;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(153,148,153,1);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(153,148,153,1);
+    box-shadow: 0px 2px 5px 0px rgba(153,148,153,1);
+}
+#content-area .widget-box .head .widget-img{
+    background: rgb(155, 153, 153);
+    height: 40px;
+    width: 40px;
 }
 #content-area .side-column{
     float: left;
