@@ -166,16 +166,14 @@ header .search-area ul li {
 #content-area .side-column{
     float: left;
     width: 35%;
-    padding: 2.5%;
-    background: red;
-    height: 600px;
+    margin: 0 2.5%;
+    
 }
 #content-area .main-area{
     float: left;
     width: 55%;
-    padding: 2.5%;
-    background: blue;
-    height: 600px;
+    margin: 0 2.5%;
+
 }
 
 
