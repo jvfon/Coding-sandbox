@@ -169,9 +169,9 @@ header .search-area ul li {
     float: left;
     width: 35%;
     margin: 0 2.5%;
-    max-width: 330px;
+    max-width: 380px;
 }
-#content-area .widget-box{
+#content-area .widget-box {
     padding: 15px;
     background: #fff;
     border-radius: 3px;
