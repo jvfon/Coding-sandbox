@@ -181,7 +181,14 @@ header .search-area ul li {
     width: 40px;
     border-radius: 50%;
     color: #fff;
+    display: flex;  /* center image using flexbox */
+    align-items: center; /* center image using flexbox */
+    justify-content: center; /* center image using flexbox */
 }    
+#content-area .widget-box .head .widget-icon fa{ /* fa only target the icon */
+    max-width: 50%;
+    font-size: 22px;
+}  
 #content-area .side-column{
     float: left;
     width: 35%;
