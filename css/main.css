@@ -212,7 +212,7 @@ header .search-area ul li {
 }
 
 #content-area .main-area {
-    float: left;
+    float: right;
     width: 55%;
     margin: 0 2.5%;
 }
