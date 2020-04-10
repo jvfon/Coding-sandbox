@@ -229,19 +229,31 @@ header .search-area ul li {
 
 #content-area .main-area .submenu ul li {
     display: inline-block;
+    padding: 10px;
     width: 19.5%;
     float: left;
     text-align: center;
     border-bottom: 3px solid #fff;
-    transition: border-bottom .4s ease-in-out;
+    transition: all .4s ease-in-out; /* transition for all elements */
     cursor: pointer; /* changes cursor, tells ppl it;s a link */  
+    
 }
 
 #content-area .main-area .submenu ul li:hover {
     border-bottom: 3px solid #08a2fc;
+    color: #08a2fc; /* font also changes color */ 
 }
 
+#content-area .main-area .submenu ul li .fa {
+    font-size: 20px;
+}
 
+#content-area .main-area .submenu ul li span {
+    display: block; /* put text in a block to manipulate it */ 
+    margin: 15px 0 0 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
 
 
 
