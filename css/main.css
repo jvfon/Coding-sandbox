@@ -244,6 +244,10 @@ header .search-area ul li {
     color: #08a2fc; /* font also changes color */ 
 }
 
+#content-area .main-area .submenu ul li:nth-child(5) { 
+    padding: 28px 0 21px 0;
+}
+
 #content-area .main-area .submenu ul li .fa {
     font-size: 20px;
 }
