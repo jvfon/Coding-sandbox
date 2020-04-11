@@ -259,8 +259,8 @@ header .search-area ul li {
     text-transform: uppercase;
 }
 
-#content-area .main-area .widget-box.post {
-
+#content-area .main-area .widget-box.post .head .user-img {
+    display: inline-block;
 }
 
 
