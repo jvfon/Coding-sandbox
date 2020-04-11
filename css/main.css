@@ -267,6 +267,8 @@ header .search-area ul li {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 40px;
+    width: 35px;
 }
 
 
