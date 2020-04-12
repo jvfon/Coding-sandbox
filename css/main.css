@@ -259,8 +259,13 @@ header .search-area ul li {
     text-transform: uppercase;
 }
 
+#content-area .main-area .widget-box.post{
+    overflow: auto;
+}
+
 #content-area .main-area .widget-box.post .head .user-img {
     display: inline-block;
+    float: left;
     background: url(https://images-na.ssl-images-amazon.com/images/M/MV5BODFjZTkwMjItYzRhMS00OWYxLWI3YTUtNWIzOWQ4Yjg4NGZiXkEyXkFqcGdeQXVyMTQ0ODAxNzE@._V1_UX172_CR0,0,172,256_AL_.jpg) 
     no-repeat center center; 
     -webkit-background-size: cover;
@@ -269,9 +274,23 @@ header .search-area ul li {
     background-size: cover;
     height: 40px;
     width: 35px;
+    margin: 0 15px 0 0;
+    border-radius: 50%;
 }
 
+#content-area .main-area .widget-box.post .head .post-info {
+    display: inline-block;
+    float: left;
+    width: 80%;
+}
 
+#content-area .main-area .widget-box.post .head .post-info  .user-info {
+    display: block; /* stay in one line by itself */ 
+}
+
+#content-area .main-area .widget-box.post .head .post-info  .user-info {
+    display: block; /* stay in one line by itself */ 
+}
 
 
 
