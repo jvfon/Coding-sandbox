@@ -34,6 +34,11 @@ p {
 html {
     font-family: sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: #08a2fc;
+}
 /*
 ////////////////////////////////////////////////////////////////////////////
 */
@@ -286,10 +291,14 @@ header .search-area ul li {
 
 #content-area .main-area .widget-box.post .head .post-info  .user-info {
     display: block; /* stay in one line by itself */ 
+    font-size: 14px;
+    margin: 6px 0 6px 0;
 }
 
-#content-area .main-area .widget-box.post .head .post-info  .user-info {
+#content-area .main-area .widget-box.post .head .post-info  .post-date {
     display: block; /* stay in one line by itself */ 
+    font-size: 12px;
+    color: #858383;
 }
 
 
