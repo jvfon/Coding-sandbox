@@ -38,10 +38,17 @@ html {
 a {
     text-decoration: none;
     color: #08a2fc;
+    transition: all .2s ease-in-out;
 }
+
+a:hover {
+    color: red;
+}
+
 /*
 ////////////////////////////////////////////////////////////////////////////
 */
+
 header {
     background: #37538C;
     padding: 15px;
