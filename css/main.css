@@ -275,6 +275,13 @@ header .search-area ul li {
     overflow: auto;
 }
 
+#content-area .main-area .widget-box.post .head .user-img-container {
+    width: 8%;
+    display: inline-block;
+    overflow: auto;
+    float: left;
+}
+
 #content-area .main-area .widget-box.post .head .user-img {
     display: inline-block;
     float: left;
@@ -286,23 +293,30 @@ header .search-area ul li {
     background-size: cover;
     height: 40px;
     width: 35px;
-    margin: 0 15px 0 0;
+    margin: 0;
     border-radius: 50%;
 }
 
 #content-area .main-area .widget-box.post .head .post-info {
     display: inline-block;
     float: left;
-    width: 80%;
+    width: 92%;
 }
 
-#content-area .main-area .widget-box.post .head .post-info  .user-info {
+#content-area .main-area .widget-box.post .head::after { 
+    /* after the above css customization is executed, show this */
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+#content-area .main-area .widget-box.post .head .post-info .user-info {
     display: block; /* stay in one line by itself */ 
     font-size: 14px;
     margin: 6px 0 6px 0;
 }
 
-#content-area .main-area .widget-box.post .head .post-info  .post-date {
+#content-area .main-area .widget-box.post .head .post-info .post-date {
     display: block; /* stay in one line by itself */ 
     font-size: 12px;
     color: #858383;
