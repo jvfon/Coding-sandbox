@@ -329,7 +329,7 @@ header .search-area ul li {
 #content-area .main-area .widget-box.post .body .post-comments .user-img {
     width: 8%;
     display: inline-block;
-    overflow: auto;
+    overflow: auto; 
     float: left;
 }
 
@@ -341,9 +341,28 @@ header .search-area ul li {
 }
 
 #content-area .main-area .widget-box.post .body .post-comments .user-img img {
-    width: 100%;
     border-radius: 50%;
+    float: left;
+    height: 40px;
+    width: 40px;
 }
+
+#content-area .main-area .widget-box.post .body .post-comments .user-comment {
+    display: inline-block;
+    float: left;
+    width: 92%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 #content-area .main-area .widget-box.post .body .post-form img {
     width: 100%;
