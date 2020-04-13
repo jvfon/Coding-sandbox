@@ -303,7 +303,7 @@ header .search-area ul li {
     width: 92%;
 }
 
-#content-area .main-area .widget-box.post .head::after { 
+#content-area .main-area .widget-box.post .headafter { 
     /* after the above css customization is executed, show this */
     content: " ";
     clear: both;
@@ -322,6 +322,9 @@ header .search-area ul li {
     color: #858383;
 }
 
+#content-area .main-area .widget-box.post .body .post-img img {
+    width: 100%;
+}
 
 
 
