@@ -326,7 +326,15 @@ header .search-area ul li {
     width: 100%;
 }
 
+#content-area .main-area .widget-box.post .body .post-comment img {
+    width: 100%;
+    border-radius: 50%;
+}
 
+#content-area .main-area .widget-box.post .body .post-form img {
+    width: 100%;
+    border-radius: 50%;
+}
 
 
 
