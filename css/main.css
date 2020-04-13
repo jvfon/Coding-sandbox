@@ -303,7 +303,7 @@ header .search-area ul li {
     width: 92%;
 }
 
-#content-area .main-area .widget-box.post .headafter { 
+#content-area .main-area .widget-box.post .head::after { 
     /* after the above css customization is executed, show this */
     content: " ";
     clear: both;
@@ -331,6 +331,13 @@ header .search-area ul li {
     display: inline-block;
     overflow: auto;
     float: left;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments::after { 
+    /* after the above css customization is executed, show this */
+    content: " ";
+    clear: both;
+    display: table;
 }
 
 #content-area .main-area .widget-box.post .body .post-comments .user-img img {
