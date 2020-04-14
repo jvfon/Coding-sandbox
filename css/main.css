@@ -276,13 +276,6 @@ header .search-area ul li {
     overflow: auto;
 }
 
-#content-area .main-area .widget-box.post .head .user-img-container {
-    width: 8%;
-    display: inline-block;
-    overflow: auto;
-    float: left;
-}
-
 #content-area .main-area .widget-box.post .head .user-img {
     display: inline-block;
     float: left;
@@ -304,12 +297,6 @@ header .search-area ul li {
     width: 92%;
 }
 
-#content-area .main-area .widget-box.post .head::after { 
-    /* after the above css customization is executed, show this */
-    content: " ";
-    clear: both;
-    display: table;
-}
 
 #content-area .main-area .widget-box.post .head .post-info .user-info {
     display: block; /* stay in one line by itself */ 
@@ -334,37 +321,54 @@ header .search-area ul li {
     padding: 15px;
 }
 
-#content-area .main-area .widget-box.post .body .post-comments .user-img {
+#content-area .main-area .widget-box.post .head .user-img-container {
     width: 8%;
     display: inline-block;
-    overflow: auto; 
+    overflow: auto;
     float: left;
 }
 
-#content-area .main-area .widget-box.post .body .post-comments::after { 
-    /* after the above css customization is executed, show this */
-    content: " ";
+#content-area .main-area .widget-box.post .body .post-comments .user-img {
+    width: 8%;
+    display: inline-block;
+    overflow: auto;
+    float: left;
+}
+
+#content-area .main-area .widget-box.post .body .post-comments::after {
+    content: "";
     clear: both;
     display: table;
 }
 
-#content-area .main-area .widget-box.post .body .post-comments .user-img img {
+/* ------------------------------------- */ 
+
+
+#content-area .main-area .widget-box.post .body .post-form {
+    background: #ffffff;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+}
+
+#content-area .main-area .widget-box.post .body .post-form .user-img {
+    width: 8%;
+    display: inline-block;
+    overflow: auto;
+    float: left;
+}
+
+#content-area .main-area .widget-box.post .body .post-form::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#content-area .main-area .widget-box.post .body .post-img img {
     border-radius: 50%;
     float: left;
-    height: 40px;
     width: 40px;
-}
-
-#content-area .main-area .widget-box.post .body .post-comments .user-comment {
-    display: inline-block;
-    float: left;
-    width: 92%;
-    font-size: 14px;
-}
-
-#content-area .main-area .widget-box.post .body .post-comments .user-comment .user-info {
-    margin: 5px 0 10px 0;
-    
+    height: 40px;
 }
 
 
@@ -372,11 +376,7 @@ header .search-area ul li {
 
 
 
-
-
-
-
-
+/* ------------------------------------------------  */
 
 #content-area .main-area .widget-box.post .body .post-form img {
     width: 100%;
