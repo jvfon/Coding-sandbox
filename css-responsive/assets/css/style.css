@@ -14,7 +14,8 @@ body {
 .child {
     background-color: #237fb4;
     height: 250px;
-    width: 75%; /* when you use % on the parent, also use % on the child to avoid overflow */
+    /* width: 75%; /* when you use % on the parent, also use % on the child to avoid overflow */
+    padding: 5em; /* use padding because it gives you more background*/ 
 }
 
 
