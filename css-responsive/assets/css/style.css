@@ -17,6 +17,7 @@ body {
     /* width: 75%; /* when you use % on the parent, also use % on the child to avoid overflow */
     padding: 5em; /* use padding because it gives you more background */
     /* 5*16= 80px, 5em = 80px. standard font-size for web browsers is 16px */ 
+    /* em looks at font size */
 }
 
 
