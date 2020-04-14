@@ -355,6 +355,11 @@ header .search-area ul li {
     font-size: 14px;
 }
 
+#content-area .main-area .widget-box.post .body .post-comments .user-comment .user-info {
+    margin: 5px 0 10px 0;
+    
+}
+
 
 
 
