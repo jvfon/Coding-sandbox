@@ -6,11 +6,15 @@ body {
 }
 .parent {
     background-color: #23424a;
-    padding: 50%;
+    margin: 0 auto; /* centers the parent on the brower */ 
+    padding: 50px;
+    width: 80%; /* 80% of the parent */
+    /* use % so the element resizes itself when the parent changes size */
 }
 .child {
     background-color: #237fb4;
     height: 250px;
+    width: 75%; /* when you use % on the parent, also use % on the child to avoid overflow */
 }
 
 
