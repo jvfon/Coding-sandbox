@@ -14,6 +14,6 @@ body {
     padding: 50px 0; 
 }
 
-.intro-content {
-    width: 50%;
+.intro-content .more-content {
+   /* width: 50%;*/
 }
