@@ -9,14 +9,13 @@ body {
     background: #23424A;
     color: white;
 
-    width: 80%;
+    width: 80%; 
     margin: 0 auto;
     
     padding: 2em;
-   /* height: 300px; */
 }
 
 .container .intro-content {
     width: 50%;
-    height: 90%;
+    
 }
