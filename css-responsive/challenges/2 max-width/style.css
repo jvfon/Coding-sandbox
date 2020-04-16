@@ -6,8 +6,8 @@ body {
 } 
 
 .container {
-    width: 80%;
-    max-width: 750px;
+   /* width: 80%; */
+    /* max-width: 750px; */
     margin: 0 auto;
     background: #23424A;
     color: white;
@@ -16,4 +16,11 @@ body {
 
 .intro-content {
     width: 50%;
+    margin: 0 auto;
+    /* max-width: 750px; */
+}
+
+.more-content {
+    width: 50%;
+    margin: 0 auto;
 }
