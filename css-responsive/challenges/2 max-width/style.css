@@ -6,11 +6,9 @@ body {
 } 
 
 .container {
-   /* width: 80%; */
-    /* max-width: 750px; */
+    width: 80%; 
+    max-width: 750px; 
     margin: 0 auto;
-    width: 80%;
-    max-width: 750px;
 }
 
 
@@ -22,7 +20,5 @@ body {
 
 .intro-content {
     width: 50%;
-    
-    /* max-width: 750px; */
 }
 
