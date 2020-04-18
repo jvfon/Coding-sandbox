@@ -21,9 +21,10 @@ body {
 }
 
 .button {
-    margin: 2px 4px 2px 4px;
+    margin: 5% 25% 0 5%;
+    padding: 15px 0;
     background: aqua;
-    border-radius: 10%; 
+    border-radius: 8%; 
     width: 150px;
     color: #23424A;
     font-weight: 700;
