@@ -15,8 +15,8 @@ body {
 }
 
 .intro-content {
-    width: 85%;
-    margin: 0 auto; 
+    width: 50%;
+    margin: 0 25% 0 5%; 
     /* max-width: 750px; */
 }
 
