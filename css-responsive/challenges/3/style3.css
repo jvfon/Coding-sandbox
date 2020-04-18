@@ -23,10 +23,12 @@ body {
 .button {
     margin: 2px 4px 2px 4px;
     background: aqua;
-    border-radius: 5%; 
+    border-radius: 10%; 
     width: 150px;
     color: #23424A;
     font-weight: 700;
+    text-align: center;
+    
 }
 
 
