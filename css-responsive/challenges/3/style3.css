@@ -20,10 +20,11 @@ body {
     /* max-width: 750px; */
 }
 
-button {
-    background-color: aqua;
-    border-color: aqua;
-    border-radius: 25%;
+.one {
+   /* margin: 0 auto;
+    background: aqua;
+    border-radius: 5%; */
+    font-size: 20px;
 }
 
 
