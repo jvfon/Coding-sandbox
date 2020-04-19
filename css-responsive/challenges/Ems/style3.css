@@ -57,7 +57,7 @@ body {
 }
 
 .intro-content2 .p2 {
-    font-size: 2rem; /* rem looks at the root font size */ 
+    font-size: 2rem; /* rem looks at the root em font size */ 
     /* which is 16px on most cases */
     /* 2rem = 16px x 2 */ 
 }
