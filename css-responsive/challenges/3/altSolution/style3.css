@@ -5,6 +5,11 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem; /* ~ 21px // 16px = 1rem */
+}
+
+h1 {
+    font-size: 3rem; /* 48px */
 }
 
 /* Basic setup for responsive website */
@@ -26,7 +31,7 @@ body {
     width: 80%;
     max-width: 900px;
     margin: 0 auto;
-    border: 2px yellow solid;
+   
 }
 
 .hero {
@@ -37,5 +42,34 @@ body {
 
 .hero__text {
     width: 50%; /* half the size of the parent */
-    border: 1px solid pink;
+    
 }
+
+.hero__text p {
+    margin-bottom: 3em;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #23424A;
+    font-weight: 900;
+    background-color: rgb(2, 181, 226);
+    padding: .75em 2em;
+    border-radius: 100px;
+}
+
+.btn:hover, .btn:focus {
+    opacity: .75;
+}
+
+
+
+
+
+
+
+
+
+
