@@ -5,10 +5,17 @@
 .top--bar {
     display: inline-block;
     color: #fff;
-    background-color: #262626
+    background-color: #262626;
+    width: 100%;
 }
 
-
+.bottom-bar {
+    display: inline-block;
+    background-color: #8FBFA9;
+    boder: 2px solid #307354;
+    color: #F2F2F2;
+    width: 85%;
+}
 
 
 
