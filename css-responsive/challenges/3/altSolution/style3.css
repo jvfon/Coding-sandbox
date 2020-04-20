@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Basic setup for responsive website */
@@ -23,7 +24,7 @@ body {
 
 .container {
     width: 80%;
-    max-width: 750px;
+    max-width: 900px;
     margin: 0 auto;
     border: 2px yellow solid;
 }
@@ -32,4 +33,9 @@ body {
     padding: 100px 0;
     background-color: #23424A;
     color: #fff;
+}
+
+.hero__text {
+    width: 50%; /* half the size of the parent */
+    border: 1px solid pink;
 }
