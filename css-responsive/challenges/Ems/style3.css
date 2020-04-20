@@ -47,7 +47,7 @@ body {
 
 .intro-content2 {
     width: 50%;
-    margin: 0 25% 0 5em; /* em references the font size of this element only */ 
+    margin: 0 25em 0 5em; /* em references the font size of this element only */ 
      /* max-width: 750px; */
 }
 
@@ -63,12 +63,13 @@ body {
 }
 
 .button2 {
-    margin: 5% 25% 0 5%;
+    margin: 1.5em 2.5em 0 4em; /* em takes the font size of this element (1.2rem) to calculate space */
     padding: 15px 0;
     background: aqua;
     border-radius: 2%; 
-    width: 150px;
+    width: 200px;
     color: #23424A;
+    font-size: 1.2rem; /* gets the font size from the root (16px) to calculate this element's font size */
     font-weight: 700;
     text-align: center;
 }
