@@ -47,7 +47,7 @@ body {
 
 .intro-content2 {
     width: 50%;
-    margin: 0 25% 0 5%; 
+    margin: 0 25% 0 5em; /* em references the font size of this element only */ 
      /* max-width: 750px; */
 }
 
