@@ -89,6 +89,7 @@ h1 {
 .container--bottom {
     background-color: rgb(1, 184, 138);
     color: rgb(240, 240, 240);
+    display: inline-block;
 }
 
 .row--bottom {
@@ -98,7 +99,7 @@ h1 {
 
 .col--bottom {
     display: inline-block;
-    /* max-width: 50% */
+    max-width: 50%;
 }
 
 
