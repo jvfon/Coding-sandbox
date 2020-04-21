@@ -87,6 +87,9 @@ h1 {
     color: rgb(240, 240, 240);
 }
 
+.row--bottom {
+    
+}
 .col + .col { /* '+' a combinator, a column is selected if it has an adjacent sibling(left)  before it */
     margin-left: 50px;
 }
