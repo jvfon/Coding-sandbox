@@ -72,15 +72,18 @@ h1 {
 
 .three-col { /* 6) added space between content */ 
     padding: 3em 0;
+    text-align: center;
 }
 
 .three-col h2 { /* 5) change h2 font color */
     color: #87629A;
 }
 
-.two-col {
+.two-col { /* 7) added background, color and padding */
     background-color: rgb(0, 159, 170);
     color: white;
+    padding: 3em 0; 
+    text-align: center;
 }
 
 .btn {
