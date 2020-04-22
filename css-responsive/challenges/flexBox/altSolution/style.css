@@ -70,6 +70,18 @@ h1 {
     margin-bottom: 3em;
 }
 
+.three-col { /* 6) added space between content */ 
+    padding: 3em 0;
+}
+
+.three-col h2 { /* 5) change h2 font color */
+    color: #87629A;
+}
+
+.two-col {
+    background-color: #38CFD9;
+}
+
 .btn {
     display: inline-block;
     text-decoration: none;
