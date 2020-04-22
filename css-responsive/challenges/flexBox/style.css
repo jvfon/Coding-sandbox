@@ -97,13 +97,15 @@ h1 {
     max-width: 80%;
 }
 
-.col--bottom {
-    display: inline-block;
-    max-width: 50%;
-}
-
 .col--bottom__1 {
     float: left;
+    display: inline-block;
+    max-width: 50%;
+    padding-left: 25%;
+}
+
+.col--bottom__2 {
+    
     display: inline-block;
     max-width: 50%;
     padding-left: 25%;
