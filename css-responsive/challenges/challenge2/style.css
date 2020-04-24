@@ -40,7 +40,7 @@ h1 {
 
 .row {
     /* display: flex => flex container */
-    display: flex;
+    display: flex; /* streches all elements to be equal in height */
     justify-content: space-between;
     
     /* can't use yet */
@@ -64,7 +64,7 @@ h1 {
 
 .hero__text { 
     width: 62%;
-    
+    border: 2px lime solid;
 }
 
 .hero__img {
