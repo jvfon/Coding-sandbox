@@ -35,14 +35,16 @@ h1 {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
-    
+    border: 2px green solid;
 }
 
 .row {
     /* display: flex => flex container */
     display: flex; /* streches all elements to be equal in height */
     justify-content: space-between;
-    
+    /* align-items: flex-start; /* elements align to the top and avoid being stretched out */ 
+        /* or wrap an element in a div so it won't stretch anymore */
+        /* the div stretches but the element inside doesn't */
     /* can't use yet */
     /* gap: 100px; */
 }
@@ -72,9 +74,15 @@ h1 {
     align-self: flex-start;
 }
 
+
+.hero__img {
+    align-self: flex-start; /* telling one item to align to the top */
+}
+
 .hero p {
     margin-bottom: 3em;
 }
+
 
 .btn {
     display: inline-block;
