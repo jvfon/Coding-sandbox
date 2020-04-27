@@ -26,16 +26,24 @@ html {
 }
 
 .body--top {
-   background-color: rgb(46, 1, 26);
+   background-color: rgb(1, 46, 12);
    color: #fff;
    width: 80%;
-   margin: 0 auto;
+   /* margin: 0 auto; */
+   padding: 2.5em 1em;
+}
+
+.body--top__width {
+   margin: 50% auto;
 }
 
 .button--top {
-   background-color:  rgb(145, 0, 137);
+   background-color:  rgb(0, 145, 56);
    width: 10%;
    text-align: center;
+   margin: 2em 0 0 0;
+   padding: 0.05em 0.25em;
+   border-radius: 25px;
 }
 
 
