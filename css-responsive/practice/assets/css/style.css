@@ -20,8 +20,22 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 html {
    font-family: 'Roboto', sans-serif;
+}
+
+.body--top {
+   background-color: rgb(46, 1, 26);
+   color: #fff;
+   width: 80%;
+   margin: 0 auto;
+}
+
+.button--top {
+   background-color:  rgb(145, 0, 137);
+   width: 10%;
+   text-align: center;
 }
 
 
