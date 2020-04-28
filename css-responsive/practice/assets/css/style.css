@@ -23,6 +23,7 @@ time, mark, audio, video {
 
 html {
    font-family: 'Roboto', sans-serif;
+   font-weight: 300;
 }
 
 .body--top {
@@ -43,8 +44,11 @@ html {
    border-radius: 25px;
 }
 
-.button {
-   
+.btn {
+   display: inline-block;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #fff;
 }
 
 .body--top--image {
