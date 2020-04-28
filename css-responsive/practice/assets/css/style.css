@@ -64,6 +64,10 @@ html {
    border-radius: 100px;
 }
 
+img {
+   width: 100%;
+   
+}
 .body--top--image {
    align-self: start;
    border: 2px solid orange;
