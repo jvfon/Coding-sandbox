@@ -33,8 +33,8 @@ html {
    /* padding: 2.5em 1em; */
 }
 
-.body--top__width {
-   /* margin: 50% auto; */
+.body--top--content {
+   width: 50%;
 }
 
 .button--top {
