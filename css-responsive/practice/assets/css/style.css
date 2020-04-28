@@ -31,10 +31,13 @@ html {
    color: #fff;
    width: 80%;
    display: flex;
+   margin: 0 auto;
 }
 
 .body--top--content {
    width: 50%;
+   padding: 2em;
+   
 }
 
 .body--top--button {
