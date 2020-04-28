@@ -37,7 +37,7 @@ html {
 .body--top--content {
    width: 50%;
    padding: 2em;
-   
+   display: flex;
 }
 
 .body--top--button {
