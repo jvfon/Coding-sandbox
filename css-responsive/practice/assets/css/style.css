@@ -29,8 +29,7 @@ html {
    background-color: rgb(0, 65, 126);
    color: #fff;
    width: 80%;
-   /* margin: 0 auto; */
-   /* padding: 2.5em 1em; */
+   display: flex;
 }
 
 .body--top--content {
@@ -41,9 +40,11 @@ html {
    background-color:  rgb(170, 98, 3);
    width: 10%;
    text-align: center;
-   /* margin: 2em 0 0 0; */
-   /* padding: 0.05em 0.25em;*/
    border-radius: 25px;
+}
+
+.button {
+   
 }
 
 .body--top--image {
