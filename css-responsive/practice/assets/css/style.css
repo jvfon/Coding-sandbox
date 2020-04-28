@@ -55,7 +55,8 @@ html {
 }
 
 .body--top--image {
-
+   align-self: start;
+   border: 2px solid orange;
 }
 
 
