@@ -49,6 +49,9 @@ html {
    text-decoration: none;
    text-transform: uppercase;
    color: #fff;
+   background-color: rgb(2, 151, 144);
+   padding: .75em 2em;
+   border-radius: 100px;
 }
 
 .body--top--image {
