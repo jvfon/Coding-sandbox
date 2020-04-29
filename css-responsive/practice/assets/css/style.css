@@ -51,7 +51,10 @@ h1 {
    
 }
 
-
+.row {
+   display: flex;
+   justify-content: space-between;
+}
 
 .hero__content {
    width: 60%;
