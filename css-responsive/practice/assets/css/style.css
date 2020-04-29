@@ -64,6 +64,7 @@ h1 {
 
 .hero__image {
    align-self: flex-start;
+   width: 32%;
    border: 2px solid orange;
 }
 
