@@ -41,13 +41,13 @@ html {
    
 }
 
-.body--top--content {
+.hero__content {
    width: 50%;
    padding: 2em;
    
 }
 
-.body--top--button {
+.btn {
    background-color:  rgb(170, 98, 3);
    width: 10%;
    text-align: center;
@@ -64,11 +64,8 @@ html {
    border-radius: 100px;
 }
 
-img {
-   width: 100%;
-   
-}
-.body--top--image {
+
+.hero__image {
    align-self: start;
    border: 2px solid orange;
 }
