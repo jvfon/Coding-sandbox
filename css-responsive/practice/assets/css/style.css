@@ -46,8 +46,8 @@ h1 {
 }
 
 .hero__content {
-   width: 50%;
-   padding: 2em;
+   width: 60%;
+   border: 2px lime;
    
 }
 
