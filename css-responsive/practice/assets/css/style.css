@@ -48,13 +48,6 @@ html {
 }
 
 .btn {
-   background-color:  rgb(170, 98, 3);
-   width: 10%;
-   text-align: center;
-   border-radius: 25px;
-}
-
-.btn {
    display: inline-block;
    text-decoration: none;
    text-transform: uppercase;
