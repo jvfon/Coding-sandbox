@@ -71,11 +71,6 @@ h1 {
 
 .hero__img {
     width: 32%;
-    align-self: flex-start;
-}
-
-
-.hero__img {
     align-self: flex-start; /* telling one item to align to the top */
 }
 
