@@ -52,24 +52,26 @@ h1 {
 }
 
 .row {
-   display: flex;
+   display: flex; /* makes a container flex. Makes contents expand to take up free space and shrinks elements to prevent overflow */ 
    justify-content: space-between;
 }
 
+/*
 .col {
    width: 100%;
 }
 
 .col + .col {
-   margin-left: 30px;
-}
+   margin-left: 30px; 
+} */
 
 .hero {
-   
+   padding: 100px 0; /* padding: space outside a div*/
+      /* 100px top and bottom, 0px right and left sides */
 }
 
 .hero__content {
-   width: 60%;
+   width: 60%; /* 60% of the width of the parent */
    border: 2px lime;
    
 }
