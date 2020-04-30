@@ -53,7 +53,7 @@ h1 {
 
 .row {
    display: flex; /* makes a container flex. Makes contents expand to take up free space and shrinks elements to prevent overflow */ 
-   justify-content: space-between;
+   justify-content: space-between; /* distribute items evently. First item in on the left(start line) last item is on the right(end line) */
 }
 
 /*
