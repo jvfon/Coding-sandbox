@@ -26,23 +26,23 @@ time, mark, audio, video {
 *, *::before, *::after { 
    box-sizing: border-box;
 } */
-/*
+
 body {
-   margin: 0;
+   margin: 0; /* erases all margin */
    font-family: 'Roboto', sans-serif;
    font-weight: 300;
-   font-size: 1.3em;
+   font-size: 1.2em; /* increase font 1.2 times the size of basic font size */
 }
 
 img {
-   max-width: 100%;
+   max-width: 100%; /* to avoid overflow, the image con only ocupy up to 100% of the container */
 }
 
 h1 {
-   font-size: 3em;
-   margin-top: 0;
+   font-size: 3em; /* increase the h1 font size 3 times the size of basic font size */
+   margin-top: 0; /* remove the top margin */
 }
-
+/*
 .container {
    background-color: rgb(0, 65, 126);
    color: #fff;
