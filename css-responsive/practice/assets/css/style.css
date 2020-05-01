@@ -42,13 +42,13 @@ h1 {
    font-size: 3em; /* increase the h1 font size 3 times the size of basic font size */
    margin-top: 0; /* remove the top margin */
 }
-/*
+
 .container {
    background-color: rgb(0, 65, 126);
    color: #fff;
-   width: 80%;
-   display: flex; 
-   margin: 0 auto;
+   width: 80%; /* only takes 80% of the parent's width */
+   /* display: flex; 
+   margin: 0 auto; */
    
 }
 
