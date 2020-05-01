@@ -26,7 +26,7 @@ time, mark, audio, video {
 *, *::before, *::after { 
    box-sizing: border-box;
 } */
-
+/*
 body {
    margin: 0;
    font-family: 'Roboto', sans-serif;
@@ -61,7 +61,7 @@ h1 {
 .col {
    width: 100%; /* takes up 100% of the parent space 
 }*/
-
+/*
 .col + .col {
    margin-left: 30px; 
 } 
@@ -70,9 +70,9 @@ h1 {
    padding: 100px 0; /* padding: space outside a div*/
       /* 100px top and bottom, 0px right and left sides */
 }
-
+/*
 .hero__text {
-   width: 60%; /* 60% of the width of the parent */
+   width: 60%; /* 60% of the width of the parent *//*
    border: 2px lime;
    margin-bottom: 2em;
 }
