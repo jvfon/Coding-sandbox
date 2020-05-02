@@ -26,7 +26,7 @@ body {
 h1 {
    font-size: 2em;
    text-transform: capitalize;
-   font-weight: 800;
+   font-weight: 700;
 }
 
 .container {
@@ -46,8 +46,10 @@ h1 {
    text-decoration: none;
    color: white;
    background-color: rgb(3, 18, 218);
-   padding: 0.8em .5em;
-   
+   padding: 0.8em 1.25em;
+   font-weight:700;
+   text-transform: uppercase;
+   border-radius: 100px;
 }
 
 
