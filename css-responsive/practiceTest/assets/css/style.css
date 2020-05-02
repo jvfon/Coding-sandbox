@@ -18,6 +18,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+*, ::before, ::after {
+   box-sizing: border-box;
+}
 
 body {
    font-family: 'Open Sans', sans-serif;
