@@ -42,6 +42,16 @@ h1 {
    padding: 3em;
 }
 
+.btn {
+   text-decoration: none;
+   color: white;
+   background-color: rgb(3, 18, 218);
+   padding: 0.8em .5em;
+   
+}
+
+
+
 
 
 
