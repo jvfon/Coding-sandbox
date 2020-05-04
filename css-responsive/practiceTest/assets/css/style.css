@@ -42,7 +42,9 @@ h1 {
 }
 
 .row {
-   display: flex;
+   display: flex; /* makes all containers inside it rows */
+      /* the default is "flex-direction: row" */
+      /* all direct children of class="row" become columns */
 }
 
 .hero {
