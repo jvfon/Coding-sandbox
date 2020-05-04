@@ -47,6 +47,15 @@ h1 {
       /* all direct children of class="row" become columns */
 }
 
+.col {
+   /* these are flex containers */
+   /* flex items try to shrink to the smallest size they can be */
+   /* text inside tries to stretch to 100% */
+   width: 100%;
+      /* so all columns take the same amount of space, an even distribution of space */
+         /* otherwise the .col with less text will shrink */ 
+}
+
 .hero {
    padding: 100px 0;
    background-color: rgb(0, 26, 43);
