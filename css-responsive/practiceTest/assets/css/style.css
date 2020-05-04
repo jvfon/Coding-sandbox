@@ -30,6 +30,11 @@ h1 {
    text-transform: capitalize;
 }
 
+.hero {
+   background-color: rgb(0, 18, 66);
+   color: white;
+}
+
 
 
 
