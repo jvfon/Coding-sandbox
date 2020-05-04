@@ -40,7 +40,7 @@ h1 {
 }
 
 .row {
-    /* display: flex => flex container */
+    /* display: flex, .row becomes a flex container */
     display: flex; /* makes all containers inside it rows */
     /* the default is "flex-direction: row" */
     /* all direct children of class="row" become columns */
