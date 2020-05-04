@@ -23,7 +23,9 @@ time, mark, audio, video {
 }
 
 body {
+   margin: 0;
    font-family: 'Open Sans', sans-serif;
+   font-size: 1.3rem;
 }
 
 h1 {
@@ -34,24 +36,33 @@ h1 {
 }
 
 .container {
-   display: flex;
+   
    max-width: 750px;
    width: 80%;
-   background-color: rgb(0, 18, 68);
-   color: white;
+   background-color: rgb(0, 26, 43);
    margin: 0 auto;
 }
 
 .hero {
-   width: 55%;
-   padding: 3em;
+   padding: 100px 0;
+   background-color: rgb(0, 26, 43);
+   color: #fff;
+}
+
+.hero__text {
+   width: 60%;
+}
+
+.hero p {
+   margin-bottom: 3em;
 }
 
 .btn {
+   display: inline-block;
    text-decoration: none;
    color: white;
-   background-color: rgb(3, 18, 218);
-   padding: 0.8em 1.25em;
+   background-color: rgb(0, 75, 124);
+   padding: 0.8em 1.2em;
    font-weight:700;
    text-transform: uppercase;
    border-radius: 100px;
