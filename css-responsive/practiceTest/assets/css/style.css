@@ -32,6 +32,10 @@ h1 {
    text-transform: capitalize;
 }
 
+h2 {
+   text-transform: capitalize;
+}
+
 .container {
    max-width: 750%;
    margin: 0 auto;
@@ -51,7 +55,7 @@ h1 {
    color: white;
    
    width: 75%;
-   margin: 0 auto;
+   
    padding: 2em 1.5em;
 }
 
