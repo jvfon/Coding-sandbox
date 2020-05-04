@@ -37,9 +37,9 @@ h2 {
 }
 
 .container {
+   width: 60%;
    max-width: 750%;
    margin: 0 auto;
-   width: 60%;
 }
 
 .row {
@@ -51,16 +51,13 @@ h2 {
 }
 
 .hero {
-   background-color: rgb(14, 23, 48);
-   color: white;
-   
-   width: 75%;
-   
    padding: 2em 1.5em;
+   background-color: rgb(14, 23, 48);
+   color: white;   
 }
 
 .hero__text {
-   margin: 1em;
+   width: 60%;
 }
 
 .hero p {
