@@ -50,6 +50,10 @@ h2 {
    width: 100%;
 }
 
+.col + .col {
+   margin-left: 20px;
+}
+
 .hero {
    padding: 2em 1.5em;
    background-color: rgb(14, 23, 48);
