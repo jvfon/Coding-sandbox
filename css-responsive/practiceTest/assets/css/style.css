@@ -45,14 +45,16 @@ h1 {
 }
 
 .hero__text p {
-   margin: 2em 0;
+   margin: 2em 0 3em 0;
 }
 
 a {
    text-decoration: none;
-   text-transform: capitalize;
+   text-transform: uppercase;
    color: rgb(82, 19, 0);
    background-color: rgb(226, 53, 0);
+   padding: 1.1em 1.25em;
+   border-radius: 100px;
 }
 
 
