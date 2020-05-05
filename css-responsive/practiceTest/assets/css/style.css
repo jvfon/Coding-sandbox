@@ -29,6 +29,24 @@ h1 {
    font-size: 3em;
 }
 
+.hero {
+   background-color: rgb(82, 19, 0);
+   color: #fff;
+}
+
+.container {
+   width: 80%;
+   margin: 0 auto;
+}
+
+.hero__text {
+   width: 60%;
+   padding: 3em;
+}
+
+.hero__text p {
+   margin: 2em 0;
+}
 
 
 
