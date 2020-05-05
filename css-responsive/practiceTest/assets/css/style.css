@@ -21,6 +21,12 @@ time, mark, audio, video {
 
 body {
    font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+}
+
+h1 {
+   font-weight: 800;
+   font-size: 3em;
 }
 
 
