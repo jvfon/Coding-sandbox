@@ -52,7 +52,8 @@ h1 {
     width: 100%;
 }
 
-.col + .col {
+.col + .col { /* '+' combinator */
+        /* selects a column if there is a column before it. */ 
     margin-left: 30px; /* 3) adds margin to the left side */
 }
 
