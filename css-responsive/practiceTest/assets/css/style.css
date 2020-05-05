@@ -48,6 +48,13 @@ h1 {
    margin: 2em 0;
 }
 
+a {
+   text-decoration: none;
+   text-transform: capitalize;
+   color: rgb(82, 19, 0);
+   background-color: rgb(226, 53, 0);
+}
+
 
 
 
