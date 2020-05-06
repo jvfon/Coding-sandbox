@@ -26,7 +26,13 @@ body {
 
 h1 {
    font-weight: 800;
-   font-size: 3em;
+   font-size: 3rem;
+}
+
+h2 {
+   font-weight: 700;
+   font-size: 1.5rem;
+   text-transform: capitalize;
 }
 
 .hero {
@@ -57,8 +63,23 @@ a {
    border-radius: 100px;
 }
 
+.three-col {
+   padding: 2em;
+   width: 80%;
+   margin: 0 auto;
+}
 
+.row {
+   display: flex;
+}
 
+.col {
+   width: 100%;
+}
+
+.col + .col {
+   margin-left: 3em;
+}
 
 
 
