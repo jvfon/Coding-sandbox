@@ -63,10 +63,15 @@ a {
 }
 
 .hero_image {
-   border: 0px;
+   border: none;
    -webkit-box-shadow: 10px 10px 5px 0px rgba(173,154,173,1);
 -moz-box-shadow: 10px 10px 5px 0px rgba(173,154,173,1);
 box-shadow: 10px 10px 5px 0px rgba(173,154,173,1);
+}
+
+img {
+   border: none;
+   text-decoration: none;
 }
 
 .bottom__image {
