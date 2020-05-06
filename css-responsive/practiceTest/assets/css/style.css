@@ -81,7 +81,10 @@ a {
    margin-left: 3em;
 }
 
-
+.two-col {
+   background-color: rgb(0, 44, 73);
+   color: #fff;
+}
 
 
 
