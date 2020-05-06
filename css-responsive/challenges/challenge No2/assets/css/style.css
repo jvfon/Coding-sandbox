@@ -21,4 +21,80 @@ time, mark, audio, video {
 
 body {
    font-family: 'Hind Vadodara', sans-serif;
+   background-image: url('https://cdn.pixabay.com/photo/2016/09/04/20/09/mountains-1645078_960_720.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   z-index: -1;
+
 }
+
+h1 {
+   font-size: 2.5rem;
+   font-weight: 700;
+   text-transform: capitalize;
+   padding-bottom: 1em;
+}
+
+p {
+   padding-bottom: 2em;
+}
+
+a {
+   background-color: rgb(20, 127, 214);
+   color: rgb(34, 54, 70);
+   padding: 1.2em 2em;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+
+.hero {
+   background-color: rgb(34, 54, 70);
+   color: #fff;
+   padding: 2em;
+
+}
+
+.hero__content {
+   maxwidth: 1100px;
+   width: 80%;
+   display: flex;
+}
+
+.hero_image {
+   border: 0px;
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(173,154,173,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(173,154,173,1);
+box-shadow: 10px 10px 5px 0px rgba(173,154,173,1);
+}
+
+.bottom__image {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
