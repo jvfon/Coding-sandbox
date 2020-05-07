@@ -48,8 +48,12 @@ a {
    display: flex;
 }
 
-.col h2, p {
+.col h2 {
    color: rgb(59, 34, 34); 
+   text-align: center;
+}
+
+.col p {
    text-align: center;
 }
 
