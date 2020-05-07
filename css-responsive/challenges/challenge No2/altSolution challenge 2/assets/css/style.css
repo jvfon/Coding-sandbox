@@ -57,6 +57,25 @@ a {
    margin-left: 50px;
 }
 
+.bottom {
+   background-color: rgb(189, 114, 114);
+}
+
+.container-bottom {
+   width: 80%;
+   margin: 0 auto;
+   padding: 50px 0;
+}
+
+.row-bottom {
+   display: flex;
+   text-align: center;
+}
+
+.col-bottom + .col-bottom {
+   margin-left: 50px;
+}
+
 
 
 
