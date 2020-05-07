@@ -8,9 +8,6 @@ body {
 
 .hero {
    background-color: rgb(59, 34, 34);
-}
-
-.hero h1, p {
    color: #fff;
 }
 
