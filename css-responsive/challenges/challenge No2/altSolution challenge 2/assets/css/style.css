@@ -22,73 +22,17 @@ time, mark, audio, video {
 
 body {
    font-family: 'Hind Vadodara', sans-serif;
+   margin: 0;
 }
 
-h1 {
-   font-size: 3rem;
-   font-weight: 700;
-   text-transform: capitalize;
-   padding-bottom: 1em;
-}
-
-p {
-   padding-bottom: 3em;
-}
-
-a {
-   background-color: rgb(20, 127, 214);
-   color: rgb(34, 54, 70);
-   padding: 1.2em 2em;
-   text-decoration: none;
-   text-transform: uppercase;
-   font-weight: 700;
-   border-radius: 10px;
-}
-
-.hero {
-   background-color: rgb(34, 54, 70);
-   color: #fff;
-   padding: 2em;
-
-}
-
-.hero__content {
-   maxwidth: 1100px;
+.container {
    width: 80%;
-   display: flex;
+   max-width: 750px;
+   margin: 0 auto;
+   background-color: rgb(0, 14, 44);
+   color: #fff;
+   padding: 50px;
 }
-
-.hero_image {
-   border: none;
-}
-
-img {
-   border: none;
-   text-decoration: none;
-}
-
-.bottom__image {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
