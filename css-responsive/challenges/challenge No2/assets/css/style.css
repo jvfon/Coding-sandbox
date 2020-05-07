@@ -30,14 +30,14 @@ body {
 }
 
 h1 {
-   font-size: 2.5rem;
+   font-size: 3rem;
    font-weight: 700;
    text-transform: capitalize;
    padding-bottom: 1em;
 }
 
 p {
-   padding-bottom: 2em;
+   padding-bottom: 3em;
 }
 
 a {
@@ -47,6 +47,7 @@ a {
    text-decoration: none;
    text-transform: uppercase;
    font-weight: 700;
+   border-radius: 10px;
 }
 
 .hero {
@@ -64,9 +65,6 @@ a {
 
 .hero_image {
    border: none;
-   -webkit-box-shadow: 10px 10px 5px 0px rgba(173,154,173,1);
--moz-box-shadow: 10px 10px 5px 0px rgba(173,154,173,1);
-box-shadow: 10px 10px 5px 0px rgba(173,154,173,1);
 }
 
 img {
