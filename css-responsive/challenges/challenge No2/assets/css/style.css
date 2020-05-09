@@ -59,8 +59,10 @@ a {
 .row {
 }
 
+
 .left {
-   width: 60%;
+   width: 70%;
+   padding-right: 2em;
 }
 
 .left h2 {
@@ -76,6 +78,14 @@ a {
 .right {
    background-color: rgb(37, 44, 23);
    color: white;
+   text-align: center;
+   margin: 0 5em;
+   padding: 0 3em;
+}
+
+.right p {
+   line-height: 1.5em;
+   margin-bottom: 3em;
 }
 
 
