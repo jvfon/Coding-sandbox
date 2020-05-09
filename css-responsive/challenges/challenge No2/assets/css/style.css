@@ -49,9 +49,23 @@ a {
    
 }
 
+.left-right {
+   display: flex;
+}
+
 .left h2 {
    color: rgb(37, 44, 23);
    text-transform: capitalize;
+}
+
+.right h2 {
+   color: rgb(193, 230, 125);
+   text-transform: capitalize;
+}
+
+.right {
+   background-color: rgb(37, 44, 23);
+   color: white;
 }
 
 
