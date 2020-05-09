@@ -18,6 +18,7 @@ h1 {
 
 .container {
    width: 80%;
+   display: flex;
 }
 
 .hero-text {
