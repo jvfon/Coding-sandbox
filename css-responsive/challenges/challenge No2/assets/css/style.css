@@ -23,6 +23,11 @@ h1 {
 
 .hero-text {
    width: 60%;
+   border: 2px solid lime;
+}
+
+.hero-text p {
+   margin: 2em 2em 10em 0;
 }
 
 a {
@@ -33,4 +38,9 @@ a {
    text-transform: uppercase;
    font-weight: 700;
    border-radius: 100px;
+   border: 2px solid red;
+}
+
+.image {
+   border: 2px solid blue;
 }
