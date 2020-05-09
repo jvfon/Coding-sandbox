@@ -12,7 +12,7 @@ h1 {
 }
 
 .hero {
-   background-color: rgb(65, 78, 41);
+   background-color: rgb(37, 44, 23);
    color: white;
    padding: 50px;
 }
@@ -37,7 +37,7 @@ h1 {
 a {
    background-color: rgb(193, 230, 125);
    padding: 1.2em;
-   color: rgb(65, 78, 41);
+   color: rgb(37, 44, 23);
    text-decoration: none;
    text-transform: uppercase;
    font-weight: 700;
@@ -48,3 +48,31 @@ a {
 .image {
    
 }
+
+.left h2 {
+   color: rgb(37, 44, 23);
+   text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
