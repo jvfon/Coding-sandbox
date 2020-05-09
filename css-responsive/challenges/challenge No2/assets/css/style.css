@@ -5,3 +5,31 @@
 body {
    font-family: 'Roboto', sans-serif;
 }
+
+h1 {
+   text-transform: capitalize;
+}
+
+.hero {
+   background-color: rgb(65, 78, 41);
+   color: white;
+   padding: 50px;
+}
+
+.container {
+   width: 80%;
+}
+
+.hero-text {
+   width: 60%;
+}
+
+a {
+   background-color: rgb(193, 230, 125);
+   padding: 1.2em;
+   color: rgb(65, 78, 41);
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 700;
+   border-radius: 100px;
+}
