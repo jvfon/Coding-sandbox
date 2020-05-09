@@ -8,7 +8,7 @@ body {
 
 h1 {
    text-transform: capitalize;
-   font-size: 2rem;
+   font-size: 2.5rem;
 }
 
 .hero {
@@ -29,7 +29,9 @@ h1 {
 }
 
 .hero-text p {
-   margin: 2em 2em 10em 0;
+   /* margin: 2em 2em 10em 0; */
+   padding: 1em 3em 3em 0;
+   line-height: 1.7em;
 }
 
 a {
