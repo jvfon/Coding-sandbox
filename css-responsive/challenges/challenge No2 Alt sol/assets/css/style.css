@@ -49,7 +49,7 @@ h1 {
 
 .row {
    display: flex;
-   justify-content: space-between; /* tells the browser how to distribute space when item don't use all the space available */
+   justify-content: space-between; /* when 2 items next to each other don't utilize 100% of the available stpace, space-between tells the browser to put left over space in the middle between two containers */
 }
 
 .col {
