@@ -30,6 +30,10 @@ h1 {
    
 }
 
+.btn:hover, .btn:focus {
+   opacity: 0.75;
+}
+
 .hero {
    background-color: rgb(37, 44, 23);
    color: white;
@@ -37,10 +41,23 @@ h1 {
 }
 
 .container {
-   display: flex;
+   
    width: 80%;
    max-width: 1100px;
    margin: 0 auto;
+}
+
+.row {
+   display: flex;
+   justify-content: space-between; /* tells the browser how to distribute space when item don't use all the space available */
+}
+
+.col {
+   width: 100%;
+}
+
+.col + .col {
+   margin-left: 30px;
 }
 
 .hero-text {
