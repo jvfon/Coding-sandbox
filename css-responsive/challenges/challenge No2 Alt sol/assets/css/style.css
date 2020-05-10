@@ -10,6 +10,7 @@ body {
 
 header {
    background-color: rgb(92, 109, 59);
+   padding: 1em 0;
 }
 
 img {
@@ -26,20 +27,32 @@ li {
 }
 
 .nav {
-   padding: .5em;
 }
 
 .nav__list {
-   display: inline-block;
    display: flex;
    margin: 0;
    padding: 0;
    list-style: none;
 }
 
+.nav__item {
+   margin-right: 1em;
+}
+
 .nav__link {
    color: white;
-   text-transform: capitalize;
+   text-transform: uppercase;
+   text-decoration: none;
+   
+}
+
+.nav__link--button {
+   background-color: #fff;
+   color: rgb(37, 44, 23);
+   border-radius: 100px;
+   padding: .25em .75em;
+   text-transform: uppercase;
    text-decoration: none;
 }
 
@@ -71,11 +84,10 @@ li {
 .hero {
    background-color: rgb(37, 44, 23);
    color: white;
-   padding: 50px 50px 80px 50px;
+   padding: 50px 0; 
 }
 
 .container {
-   
    width: 80%;
    max-width: 1100px;
    margin: 0 auto;
