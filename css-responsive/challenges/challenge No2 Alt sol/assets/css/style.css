@@ -18,6 +18,15 @@ h1 {
    font-size: 2.5rem;
 }
 
+.section-title {
+   color: rgb(92, 109, 59);
+}
+
+.section-title, .sidebar-title {
+   text-transform: capitalize;
+
+}
+
 .btn {
    display: inline-block;
    background-color: rgb(193, 230, 125);
@@ -93,7 +102,11 @@ h1 {
 }
 
 .sidebar {
+   background-color: rgb(92, 109, 59);
+   color: white;
    width: 32%;
+   text-align: center;
+   padding: 0 2rem;
 }
 
 
