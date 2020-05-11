@@ -23,39 +23,6 @@ h1 {
    font-size: 2.5rem;
 }
 
-li {
-}
-
-.nav {
-}
-
-.nav__list {
-   display: flex;
-   margin: 0;
-   padding: 0;
-   list-style: none;
-}
-
-.nav__item {
-   margin-right: 1em;
-}
-
-.nav__link {
-   color: white;
-   text-transform: uppercase;
-   text-decoration: none;
-   
-}
-
-.nav__link--button {
-   background-color: #fff;
-   color: rgb(37, 44, 23);
-   border-radius: 100px;
-   padding: .25em .75em;
-   text-transform: uppercase;
-   text-decoration: none;
-}
-
 .section-title {
    color: rgb(92, 109, 59);
 }
