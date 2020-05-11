@@ -29,6 +29,10 @@ li {
 .nav {
    display: flex;
    justify-content: space-between; /* both nav__list's are not using 100% of the available space so the extra space will be put between them */
+   /* after adding the logo, nav__item's text is pushed to the top of the nav__item container, to center the text use align-items: center */
+   align-items: center;
+   /* at this point, the nav__item's are stuck to the right because we used display: flex (it makes containers shrink), to fix that, use width: 100%. Width: 100% is going to use 100% of the space available, this in turn will make "space between" utilize the space left to max and this will move the nav__list's to both ends of the nav area*/
+   width: 100%;
 }
 
 .nav__list {
@@ -36,6 +40,7 @@ li {
    margin: 0;
    padding: 0;
    list-style: none;
+   font-size: .9rem;
 }
 
 /*
@@ -45,7 +50,7 @@ li {
 */
 
 .nav__item + .nav__item {
-   margin-left: 1em; /* selects the item that has an item to the right and puts a 1em space between them. 
+   margin-left: 1em; /* selects the item that has an item to the right and puts a 1em space between them. */
 }
 
 .nav__link {
