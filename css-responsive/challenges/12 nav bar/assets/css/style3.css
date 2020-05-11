@@ -26,6 +26,10 @@ h1 {
 li {
 }
 
+.logo {
+   margin-right: 1em;
+}
+
 .nav {
    display: flex;
    justify-content: space-between; /* both nav__list's are not using 100% of the available space so the extra space will be put between them */
@@ -35,7 +39,7 @@ li {
    /* width: 100%; /* solution 1 */
    /* solution 2: */
    flex-grow: 1; /* with the value equal to "0", it won't allow nav items to grow as usual with flex and with the value equal to 1, it will allow nav items to grow. This will allow space-between to expand to the max and push nav items to opsite ends of the nav bar*/
-   flex-shrink: 1; /* as a default, flex-shrink is set to 1. at this value nav item space won't be allowed to shrink when the screen changes in size. Items will overflow when the screen changes in size. With the value equal to 1, the items, the space between items are allowed to shrink when the screen size becomes smaller */
+   /* flex-shrink: 1; /* as a default, flex-shrink is set to 1. at this value nav item space won't be allowed to shrink when the screen changes in size. Items will overflow when the screen changes in size. With the value equal to 1, the items, the space between items are allowed to shrink when the screen size becomes smaller */
    
 }
 
