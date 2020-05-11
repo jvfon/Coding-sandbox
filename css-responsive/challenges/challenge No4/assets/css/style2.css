@@ -27,6 +27,7 @@ li {
 }
 
 .nav {
+   
 }
 
 .nav__list {
@@ -40,8 +41,10 @@ li {
    margin-right: 1em;
 }
 
-.nav__item--push--right {
-   margin-left: auto; /* pushes itmes to the right margin "auto" is only applied to the left */
+.nav__list-right {
+   
+   list-style: none;
+   justify-content: space-between;
 }
 
 .nav__link {
