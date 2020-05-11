@@ -41,7 +41,7 @@ li {
 }
 
 .nav__item--push--right {
-   /* margin-left: auto; */
+   margin-left: auto; /* pushes itmes to the right margin is only applied to the left */
 }
 
 .nav__link {
