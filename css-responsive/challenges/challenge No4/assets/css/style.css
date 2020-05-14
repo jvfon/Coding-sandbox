@@ -33,15 +33,19 @@ header {
     max-width: 1128px;
     text-align: center;
     margin: 0 auto;
-    padding: 50px;
+    padding: 100px;
 }
 
 .hero__h1 {
     color: #824936;
     font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 .hero__h3 {
-    font-weight: 300;
+    font-weight: 100;
     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    
 }
