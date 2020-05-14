@@ -4,3 +4,15 @@ body {
     font-family: 'Playfair Display', serif;
     font-family: 'Roboto', sans-serif;
 }
+
+header {
+    background-color: #F3EED9
+}
+
+.hero {
+    width: 80%;
+    max-width: 1128px;
+    text-align: center;
+    margin: 0 auto;
+
+}
