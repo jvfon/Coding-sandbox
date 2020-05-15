@@ -1,1 +1,4 @@
-$('body').css({background: 'red'})
+
+$(document).ready(function() {
+    $('body').css({background: 'red'})
+});
