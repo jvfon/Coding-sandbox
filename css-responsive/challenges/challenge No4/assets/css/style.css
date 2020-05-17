@@ -28,6 +28,16 @@ header {
     background-color: #F3EED9
 }
 
+h2 {
+    color: #824936;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: capitalize;
+
+}
+
+
 .hero {
     width: 80%;
     max-width: 1128px;
@@ -50,3 +60,4 @@ header {
     text-transform: uppercase;
     
 }
+
