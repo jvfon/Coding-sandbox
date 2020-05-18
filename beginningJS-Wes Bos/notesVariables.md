@@ -28,3 +28,8 @@ The variable 'first' value changes from 'door' to 'chair'.
 There is no need to declare the variable again with 'var'.  
 
 As a general rule, `const` variables can't be updated.  
+
+## Scoping
+
+`var` variables are function scope variables.  
+`let` and `const` variables are block scope variables.
