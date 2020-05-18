@@ -21,8 +21,10 @@ Use ';' to terminate a statement.
 `var` and `let` can be updated.  
 
 example:
-`var first = 'door';`
+`var first = 'door';`  
 `first = 'chair';`
 
 The variable 'first' value changes from 'door' to 'chair'.   
 There is no need to declare the variable again with 'var'.  
+
+As a general rule, `const` variables can't be updated.  
