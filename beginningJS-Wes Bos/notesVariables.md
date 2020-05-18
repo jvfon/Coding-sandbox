@@ -19,3 +19,10 @@ Use ';' to terminate a statement.
 ## Differences between var, let and const
 
 `var` and `let` can be updated.  
+
+example:
+`var first = 'door';`
+`first = 'chair';`
+
+The variable 'first' value changes from 'door' to 'chair'.   
+There is no need to declare the variable again with 'var'.  
