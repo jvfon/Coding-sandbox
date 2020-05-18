@@ -33,3 +33,5 @@ As a general rule, `const` variables can't be updated.
 
 `var` variables are function scope variables.  
 `let` and `const` variables are block scope variables.
+
+## Naming convention
