@@ -35,3 +35,10 @@ As a general rule, `const` variables can't be updated.
 `let` and `const` variables are block scope variables.
 
 ## Naming convention
+
+- Start name with a lower case letter.  
+- Start with an A to Z letter.  
+- Can start with an underscore and/or dollar sign.  
+- Camel case can be used.  
+- Snake case can also be used.  
+    - Ex: this_is_snake_case.  
