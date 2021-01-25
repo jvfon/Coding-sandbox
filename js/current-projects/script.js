@@ -1,7 +1,6 @@
-let a = 1;
-let b = 2;
-let c = 3;
+let a = true;
+let b = false;
 
-let d = a;
+console.log(a);
+console.log(b);
 
-console.log(a, d);
