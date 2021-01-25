@@ -1,6 +1,9 @@
-let a = true;
-let b = false;
+let a = null;
 
-console.log(a);
-console.log(b);
+console.log(typeof a);
+
+
+
+
+
 
