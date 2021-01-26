@@ -1,9 +1,4 @@
-let a = null;
+let a = 'a';
+let b = 'b';
 
-console.log(typeof a);
-
-
-
-
-
-
+console.log(a < b);
