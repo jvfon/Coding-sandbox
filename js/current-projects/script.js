@@ -1,8 +1,6 @@
 function sum(a, b) {
-    console.log(a + b);
+    return a + b;
 }
 
-let x = 1;
-let y = 2;
-
-sum(x, y);
+let s = sum(1, 2);
+console.log(s);

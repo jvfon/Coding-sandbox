@@ -165,6 +165,28 @@ let y = 2;
 
 sum(x, y);
 ```
+### Not passing a value
+If you write:
+```js
+function personsName(n) {
+    console.log(n);
+}
+
+personsName();
+```
+and not pass a value to console log, you will get "undefined" as a result.  
+
+If you have more than 1 value and only pass one value, the 2nd or 3rd values will output "undefined".  
+
+### Returning a value that we can use
+```js
+function sum(a, b) {
+    return a + b;
+}
+
+let s = sum(1, 2);
+console.log(s);
+```  
 
 
 
