@@ -187,6 +187,43 @@ function sum(a, b) {
 let s = sum(1, 2);
 console.log(s);
 ```  
+Instead of putting console.log inside the function use the word "return" to return a value that you can use.  
+
+Put "sum" a value of a variable, then output the value.  
+
+You can re-use the variable "s".
+```js
+function sum(a, b) {
+    return a + b;
+}
+
+let s = sum(1, 2);
+let sum2 = sum(s, 2);
+console.log(sum2);
+```
+
+### Return "Hello" with a name
+My solution: 
+```js
+function n(say) {
+    return say;
+}
+
+let s = n("Hello");
+let s2 = (s + " Jose");
+console.log(s2);
+```
+
+Instructor solution:
+```js
+function sayHi(name) {
+    return "Hello " + name;
+}
+
+let result = sayHi("Jose");
+console.log(result);
+```
+
 
 
 
