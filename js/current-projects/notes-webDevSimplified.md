@@ -224,6 +224,14 @@ let result = sayHi("Jose");
 console.log(result);
 ```
 
+### Passing a function as an argument
+```js
+function printVariable(variable) {
+    console.log(variable);
+}
+
+console.log(printVariable);
+
 
 
 
