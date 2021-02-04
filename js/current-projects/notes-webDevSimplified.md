@@ -231,6 +231,62 @@ function printVariable(variable) {
 }
 
 console.log(printVariable);
+```
+
+What you will see on the console is the definition of the function.  
+
+The variable that has the definition of the function inside of it.  
+
+When the "function" keyword is used, it creates a variable for you with that name(printVariable) and the variable(printVariable) contains the definition of the function inside of it.  
+
+You can pass the variable (the original function) which is the function definition to another new function and use it inside the new function.  
+
+```js
+function printVariable(variable) {
+    console.log(variable);
+}
+
+function func(x) {
+    x("Hello World");
+}
+
+func(printVariable)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,78 +1,130 @@
-// function n(say) {
-//     return say;
+// // function n(say) {
+// //     return say;
+// // }
+
+// // let s = n("Hello");
+// // let s2 = (s + " Jose");
+// // console.log(s2);
+
+// // function sayHi(name) {
+// //     return "Hello " + name;
+// // }
+
+// // let result = sayHi("Jose");
+// // console.log(result);
+
+// // function dilo(nombre) {
+// //     return "Hola " + nombre;
+// // }
+
+// // let h = dilo("Jose");
+// // console.log(h);
+
+// // function addName(name) {
+// //     return "Hello " + name;
+// // }
+
+// // let n = addName("Jose");
+// // console.log(n);
+
+// // function sum(a) {
+// //     return a;
+// // }
+
+// // let a = 1;
+// // let r = sum(a + 1);
+// // console.log(r);
+
+// function sum2(a, b) {
+//     return a + b;
 // }
 
-// let s = n("Hello");
-// let s2 = (s + " Jose");
-// console.log(s2);
+// let suma = sum2(1, 2);
+// console.log(suma);
 
-// function sayHi(name) {
-//     return "Hello " + name;
+// function multiNum(a, b) {
+//     return a * b;
 // }
 
-// let result = sayHi("Jose");
-// console.log(result);
+// let multiResult = multiNum(2, 3);
+// console.log(multiResult);
 
-// function dilo(nombre) {
-//     return "Hola " + nombre;
+// function divNum(a, b) {
+//     return a / b;
 // }
 
-// let h = dilo("Jose");
-// console.log(h);
+// let division = divNum(10, 2);
+// console.log(division);
 
-// function addName(name) {
-//     return "Hello " + name;
+// function addWords (a, b) {
+//     return a + b;
 // }
 
-// let n = addName("Jose");
-// console.log(n);
+// let wordsAdded = addWords("hola ", "chau");
+// console.log(wordsAdded);
 
-// function sum(a) {
-//     return a;
+// function watchBrand(a, b) {
+//     return "Best watches: " + a + " and " + b;
 // }
 
-// let a = 1;
-// let r = sum(a + 1);
-// console.log(r);
+// let twoBrands = watchBrand("Seiko", "Orient");
+// console.log(twoBrands);
 
-function sum2(a, b) {
-    return a + b;
+// function groceryStores(a, b) {
+//     return a + " and " + b;
+// }
+
+// let twoStores = groceryStores("Safeway", "Albertsons");
+// console.log(twoStores);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function printVariable(variable) {
+    console.log(variable);
 }
 
-let suma = sum2(1, 2);
-console.log(suma);
-
-function multiNum(a, b) {
-    return a * b;
+function func(x) {
+    x("Hello World");
 }
 
-let multiResult = multiNum(2, 3);
-console.log(multiResult);
+func(printVariable);
 
-function divNum(a, b) {
-    return a / b;
-}
 
-let division = divNum(10, 2);
-console.log(division);
 
-function addWords (a, b) {
-    return a + b;
-}
 
-let wordsAdded = addWords("hola ", "chau");
-console.log(wordsAdded);
 
-function watchBrand(a, b) {
-    return "Best watches: " + a + " and " + b;
-}
 
-let twoBrands = watchBrand("Seiko", "Orient");
-console.log(twoBrands);
 
-function groceryStores(a, b) {
-    return a + " and " + b;
-}
 
-let twoStores = groceryStores("Safeway", "Albertsons");
-console.log(twoStores);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
