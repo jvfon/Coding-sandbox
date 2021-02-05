@@ -3,11 +3,10 @@ function printVariable(variable) {
 }
 
 function func(x) {
-    return x;
+    x(2);
 }
 
-let a = func(2);
-console.log(a);
+func(printVariable);
 
 //-----------------
 

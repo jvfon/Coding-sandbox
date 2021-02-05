@@ -252,7 +252,13 @@ function func(x) {
 
 func(printVariable)
 ```
+Passing the function (printVariable) itself. Passing literally ```console.log(variable);```.  
 
+Passing the variable "variable" to the function "func" and mapping "variable" to the "x" variable.  
+
+Call "func" by using parenthesis ```x("Hello World");```, then pass the "Hello World" value.  
+
+The function "func" is getting the variable "printVariable", remapping to "x" and calling that with "Hello World" which essentially 
 
 
 
