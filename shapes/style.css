@@ -21,8 +21,18 @@ body {
   font-size: 2em;
 } */
 
-.one_icon {
+.one__icon {
   background: rgba(0,0,0,.3); /* makes the icon visible */
+  color: rgba(0,0,0,.3); /* same background and color makes font a little darker */
+  width: 100px;
+  height: 100px;
+  margin: 0 auto; /* puts icon in the middle */
+  border-radius: 50%; /* creates a circle but the but the width and height have to be equal to make a box */
+  /* to center the icon: */
+  display: grid;
+  place-items: center; /*a shorthand property to justify and align items */
+  font-size: 2em;
+
 
 }
 
