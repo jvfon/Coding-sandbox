@@ -1,12 +1,3 @@
-function printVariable(variable) {
-    console.log(variable);
+function sum(a, b) {
+
 }
-
-function func(x) {
-    x(2);
-}
-
-func(printVariable);
-
-//-----------------
-

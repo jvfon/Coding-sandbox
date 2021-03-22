@@ -130,7 +130,11 @@ To call a function, type the name of the function followed by (). Inside the () 
 sayHi();
 ```
 
+### Error Messages
+"Uncaught sytax error" and "unexpected identifier" mean that part of your code is misconfigured.  
+
 ### Functions that take info(arguments)
+A function that takes two arguments to perform addition.  
 ```js
 function sum(a, b) {
 
