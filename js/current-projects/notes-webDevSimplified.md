@@ -142,7 +142,7 @@ function sum(a, b) {
 ```   
 Inside the () are the names of the info you want to pass to the function.  
 
-A and b are parameters and they are like variables.  
+A and b are parameters (or arguments) and they are like variables.  
 
 ```js
 function sum(a, b) {
