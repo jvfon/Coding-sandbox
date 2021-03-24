@@ -1,3 +1,7 @@
-function sum(a, b) {
-
+function yourName(firstName) {
+    console.log(firstName);
 }
+
+yourName("Jose");
+
+

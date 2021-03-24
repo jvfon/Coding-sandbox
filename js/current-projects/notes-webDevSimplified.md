@@ -169,6 +169,9 @@ let y = 2;
 
 sum(x, y);
 ```
+
+The thing with parameters is that we are giving a name to the thing we are passing as the first part of the function and the same with the second part of the funcition.  
+
 ### Not passing a value
 If you write:
 ```js
