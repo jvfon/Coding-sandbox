@@ -194,7 +194,26 @@ function sum(a, b) {
 let s = sum(1, 2);
 console.log(s);
 ```  
-Instead of putting console.log inside the function use the word "return" to return a value that you can use.  
+Instead of putting "console.log" inside the function use the word "return" to return a value that you can use. Anything after "return" will be outputted from the function. 
+
+```js
+function sum(a, b) {
+    return a + b;
+}
+
+sum(1, 2);
+```
+Here nothing gets printed but you get a value that you can use.  
+
+
+If you add the variable "s", then that variable will be equal to the sum a + b.
+```js
+function sum(a, b) {
+    return a + b;
+}
+
+let s = sum(1, 2);
+```
 
 Put "sum" a value of a variable, then output the value.  
 
