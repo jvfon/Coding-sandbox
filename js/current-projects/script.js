@@ -1,7 +1,5 @@
-function yourName(firstName) {
-    console.log(firstName);
+function name(x) {
+    return "Hello" + x;
 }
 
-yourName("Jose");
-
-
+let x = "Joe";
