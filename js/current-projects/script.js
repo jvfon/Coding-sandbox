@@ -3,3 +3,5 @@ function name(x) {
 }
 
 let x = "Joe";
+
+console.log(x);
