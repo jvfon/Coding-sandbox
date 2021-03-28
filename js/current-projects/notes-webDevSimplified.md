@@ -261,7 +261,7 @@ console.log(printVariable);
 
 What you will see on the console is the definition of the function.  
 
-The variable that has the definition of the function inside of it.  
+You have a variable that has the definition of the function inside of it.  
 
 When the "function" keyword is used, it creates a variable for you with that name(printVariable) and the variable(printVariable) contains the definition of the function inside of it.  
 
@@ -284,7 +284,40 @@ Passing the variable "variable" to the function "func" and mapping "variable" to
 
 Call "func" by using parenthesis ```x("Hello World");```, then pass the "Hello World" value.  
 
-The function "func" is getting the variable "printVariable", remapping to "x" and calling that with "Hello World" which essentially 
+The function "func" is getting the variable "printVariable", remapping to "x" and calling that with "Hello World" which essentially calls the function "printVariable" and passes out the text "Hello World".  
+
+A function that passes another function is called a callback function.  
+
+
+# Callback function
+```js
+function sumCallback (a, b, callback){
+    callback(a + b);
+}
+
+function handleSum(sum) {
+    console.log(sum)
+}
+
+sumCallback(1, 2, handleSum);
+```
+
+The function sumCallback passes two arguments and takes in a function which it is called with the result of adding the two values (arguments) together.  
+
+The second function handleSum (the callback function) will take in the sum from the function sumCallback.  
+
+Call the function sumCallback, pass 2 values (1 and 2) and pass in the function handleSum 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
