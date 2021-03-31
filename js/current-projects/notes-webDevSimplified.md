@@ -326,11 +326,18 @@ twoParameters("Jose", twoLetters);
 
 Instructor's solution:
 ```js
+function printVariable(variable){
+    console.log(variable);
+}
+
 function printName(name, callback) {
     callback("Hello " + name);
 }
 
 printName("Jose", printVariable);
+```
+
+## Anonymous Function 
 
 
 
