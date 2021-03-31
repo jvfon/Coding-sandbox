@@ -308,6 +308,31 @@ The second function handleSum (the callback function) will take in the sum from 
 
 Call the function sumCallback, pass 2 values (1 and 2) and pass in the function handleSum 
 
+Exercise:  
+Create a function that takes 2 parameters and it prints "Hello Jose"
+
+My solution:  
+```js
+function twoParameters(c, callback){
+    callback("Hello " + c)
+}
+
+function twoLetters(sum){
+    console.log(sum);
+}
+
+twoParameters("Jose", twoLetters);
+```
+
+Instructor's solution:
+```js
+function printName(name, callback) {
+    callback("Hello " + name);
+}
+
+printName("Jose", printVariable);
+
+
 
 
 
