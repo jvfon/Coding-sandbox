@@ -129,6 +129,43 @@ function printName(name, callback) {
 printName("Jose", printVariable);
 
 
+function printName(name, callback) {
+    callback("Hello " + name);
+}
+
+printName("Jose", function (variable) {
+    console.log(variable);
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function candy(a, callback){
+    callback("My fav cady is: " + a);
+}
+
+function dulce()
+
+
+
+
+
+
+
+
+
+
+
 
 
 

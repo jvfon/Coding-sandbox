@@ -115,6 +115,8 @@ Taking variables you no longer use and removing them from the memory of the comp
 As the program is running, it will delete the variable it no longer needs.  
 
 ### Normal Functions
+A function is like a variable that contains the definition of a function.  
+
 ```js
 function sayHi() {
     
@@ -338,6 +340,35 @@ printName("Jose", printVariable);
 ```
 
 ## Anonymous Function 
+Since callback functions are used so common, JS allows us to write anonymous functions. 
+
+Anonymous functions are function written without a name inside where we run a function to callback another function.  
+
+```js
+function printVariable(variable){
+    console.log(variable);
+}
+
+function printName(name, callback) {
+    callback("Hello " + name);
+}
+
+printName("Jose", printVariable);
+```
+
+to:
+```js
+function printName(name, callback) {
+    callback("Hello " + name);
+}
+
+printName("Jose", function (variable) {
+    console.log(variable);
+})
+```
+Calling the function printName, passing one argument and an anonymous function. Passing a function where it's being used.  
+
+A function is like a variable that contains the definition of a function.  
 
 
 
