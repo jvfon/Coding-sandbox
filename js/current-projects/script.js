@@ -154,10 +154,18 @@ function candy(a, callback){
     callback("My fav cady is: " + a);
 }
 
-function dulce()
+function dulce(suma){
+    console.log(suma);
+}
+
+candy("chupete", dulce);
 
 
+// function candy2(f, callback){
+//     callback("Mi dulce favorito es: " + f)
+// }
 
+// function("chupete");
 
 
 
