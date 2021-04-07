@@ -1,8 +1,7 @@
-function watchFace(color, callback){
-    callback("which watch face color? " + color);
+
+
+let printName = (name) => {
+    console.log(name);
 }
 
-watchFace("white", function(var1){
-    console.log(var1);
-})
-///////////////////////////////////////////
+printName("Jose");

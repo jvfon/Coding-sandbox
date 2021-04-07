@@ -370,6 +370,32 @@ Calling the function printName, passing one argument and an anonymous function. 
 
 A function is like a variable that contains the definition of a function.  
 
+# Arrow Function
+A normal function
+```js
+function sum(a, b){
+    return a + b;
+}
+
+console.log(sum(1, 2));
+```
+
+### How an arrow function is built:
+```js
+let sumArrow = (a + b) => {
+    return a + b;
+}
+
+console.log(sumArrow(1, 2));
+```
+The keyword "let" is used instead of the keyword "function".  
+Then the equal "=" sign is used.  
+Put the "=" sign with the ">" in between the parenthesis and curly brackets.  
+So, "run these parameters" through this function".  
+
+
+
+
 
 
 
