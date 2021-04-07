@@ -1,7 +1,9 @@
+// function sum(a, b) {
+//     return a + b;
+// }
 
-
-let printName = (name) => {
-    console.log(name);
+let sumArrow = (a, b) => {
+    return a + b;
 }
 
-printName("Jose");
+console.log(sumArrow(1, 2));

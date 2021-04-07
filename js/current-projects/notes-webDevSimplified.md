@@ -382,7 +382,7 @@ console.log(sum(1, 2));
 
 ### How an arrow function is built:
 ```js
-let sumArrow = (a + b) => {
+let sumArrow = (a, b) => {
     return a + b;
 }
 
@@ -392,6 +392,33 @@ The keyword "let" is used instead of the keyword "function".
 Then the equal "=" sign is used.  
 Put the "=" sign with the ">" in between the parenthesis and curly brackets.  
 So, "run these parameters" through this function".  
+
+When there is only one argument, function parentheses can be left off.
+```js
+let printName = name => {
+    console.log(name);
+}
+
+printName("Jose");
+```  
+
+Regular function arrow:
+```js
+let sumArrow = (a, b) => {
+    return a + b;
+}
+
+console.log(sumArrow(1, 2));
+```
+
+You can also leave off the curly braces and the keyword "return" and put everything in one line.  
+```js
+let sumArrow = (a, b) => a + b;
+
+
+console.log(sumArrow(1, 2));
+```
+
 
 
 
