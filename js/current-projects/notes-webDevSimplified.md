@@ -418,6 +418,8 @@ let sumArrow = (a, b) => a + b;
 
 console.log(sumArrow(1, 2));
 ```
+When you put in an arrow function a single line of code without parenthesis, it will return whatever you put for the arguments.  
+
 
 
 
