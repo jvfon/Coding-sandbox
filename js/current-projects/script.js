@@ -21,3 +21,30 @@ console.log(printHola("Jose"));
 
 let carros = (tegusta) => "Cual carro te gusta? " + tegusta;
 console.log(carros("Toyota"));
+
+
+
+let mug = (type) => "What type of mug do you like? " + type;
+
+console.log(mug("Coffee"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
