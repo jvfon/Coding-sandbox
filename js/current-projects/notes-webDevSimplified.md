@@ -420,6 +420,32 @@ console.log(sumArrow(1, 2));
 ```
 When you put in an arrow function a single line of code without parenthesis, it will return whatever you put for the arguments.  
 
+The reason to use arrow function is to pass functions to other functions and write less code.  
+
+Example regular function:
+```js
+function func(x, callback) {
+    callback(x);
+}
+
+func(10, function(variable){
+    console.log(variable);
+})
+```
+
+Arrow function: 
+```js
+
+function func(x, callback) {
+    callback(x);
+}
+
+func(10, variable => console.log(variable));
+```
+
+# Debugging
+
+
 
 
 
