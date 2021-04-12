@@ -1,9 +1,11 @@
-function sayHi(name) {
-    let result = "Hi " + name;
-    console.log(result);
+
+function print(variable) {
+
+    return function func(variable2) {
+        console.log(variable);
+        console.log(variable2);
+    }
 }
 
-sayHi("Jose");
-
-
-
+let a = print(1);
+a(2);

@@ -470,6 +470,37 @@ Global scope: Variables declared outside a function are accessible anywhere in t
 Curly braces create a new scope.  
 
 # Closure
+A function inside another function.  
+
+Ex:
+```js
+let a = 1;
+
+function print() {
+    console.log(a);
+}
+
+let a = 2;
+
+print();
+```
+As long as the variable "a" is reassigned a new value before the function is called, the new value will be the output.  
+
+A typical closure:
+```js
+function print(variable) {
+
+    return function func(variable2) {
+        console.log(variable);
+        console.log(variable2);
+    }
+}
+
+let a = print(1);
+a(2);
+```
+
+# Variables - Const
 
 
 
