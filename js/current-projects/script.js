@@ -1,6 +1,9 @@
-
-function func(x, callback) {
-    callback(x);
+function sayHi(name) {
+    let result = "Hi " + name;
+    console.log(result);
 }
 
-func(10, variable => console.log(variable));
+sayHi("Jose");
+
+
+

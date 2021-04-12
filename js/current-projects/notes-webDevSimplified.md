@@ -444,6 +444,35 @@ func(10, variable => console.log(variable));
 ```
 
 # Debugging
+When the browser finds an error, it outputs a "stack trace" in the console tab where the location of the errors are presented from the "inside out".  
+
+The most inside function where the error occurred is shown first and the last error shown is the most outer function where the error began.  
+
+### Code stack
+On the source tab, click on the pause button near the bottom of the page. If you refresh the browser will pause when it encouters and error.  
+
+Below there, you will see the "call stack". You don't necessarily need an error to see it. It allows you to see what's going on in your function.  
+
+If you don't have an error, on the "source" tab, click on one of the lines of code to create a "break point". When you run the code, it will pause the code and you will be able to see exactly what is happening. Resave and the code will stop at the break point and you will see what is going on on that line on the call stack.  
+
+You can use additional functions like the down arrow (step into function) to further examine the function.  
+
+# Hoisting
+JS programs run from top to bottom. You need to declare variables before using them, etc. With functions is different, before a program is run, all the functions are gathered and assumed to be on top of everything else.  
+
+Hosting doesn't work with arrow functions because they are defined as variables.  
+
+# Scoping
+Local scope: Variables declared inside a function are only accessible inside that function.  
+
+Global scope: Variables declared outside a function are accessible anywhere in the function.
+
+
+
+
+
+
+
 
 
 
