@@ -463,9 +463,14 @@ JS programs run from top to bottom. You need to declare variables before using t
 Hosting doesn't work with arrow functions because they are defined as variables.  
 
 # Scoping
-Local scope: Variables declared inside a function are only accessible inside that function.  
+Script scope: Variables declared inside a function are only accessible inside that function.  
 
-Global scope: Variables declared outside a function are accessible anywhere in the function.
+Global scope: Variables declared outside a function are accessible anywhere in the program, including inside any function.  
+
+Curly braces create a new scope.  
+
+# Closure
+
 
 
 
