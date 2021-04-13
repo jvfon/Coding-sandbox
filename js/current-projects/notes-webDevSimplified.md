@@ -501,6 +501,154 @@ a(2);
 ```
 
 # Variables - Const
+You can't redefine a variable once it's been defined with const.  
+
+Syntax:
+```js
+const a = 1;
+console.log(a);
+```
+If you think the value of a variable will change use "let", otherwise use "const".  
+
+# Variables - Var
+Syntax:
+```js
+var a = 1;
+console.log(a);
+```
+Unusual behavior with "var", it allows hoisting.  
+
+Variables defined with "var" are available outside of their scope. Avoid using "var" to declare variables.   
+
+# Type coercion
+Converting a type to another type.  
+
+### Explicit type coercion: 
+Converting a string to an integer.  
+```js
+let a = "1";
+parseInt(a);
+
+console.log(a);
+```
+
+Converting a number to a string:
+```js
+let a = 1.34;
+
+console.log(a.toString());
+```
+
+### Implicit type coercion.
+The computer is coverting a type to another type for you.  
+ex:
+```js
+let a = 1;
+const b = "Hi ";
+console.log(b + a);
+```
+When you use "+", a string is converted to a number.
+
+```js
+let a = 1;
+const b = "Hi ";
+console.log(b - a);
+```
+When you use "-", a number is converted to a string.  
+
+# Check for equality
+
+Use 3 equal signs "===". It tells JS to compare types without type coercion.
+
+```js
+const a = "";
+const b = false;
+
+console.log(a === b);
+```
+
+You can also add another "=" when you use "!=", otherwise JS will use type coercion and two types that are not equal will come up as equal. The extra "=" sign tells JS to not change the types.
+```js
+const a = "";
+const b = "1";
+
+console.log(a !== b);
+```
+
+# NaN
+To check if something is not a number don't do this:
+```js
+const a = "asdfasdf";
+
+console.log(parseInt == NaN);
+```
+It will output "false" because NaN is never equal to anythig.  
+
+Do this to check if something is NaN:
+```js
+const a = parseInt("asdfasdf");
+
+console.log(isNaN(a));
+```
+It will outpu as true.  
+
+# Array
+Basic syntax:
+```js
+const a = [1,2,3,4,5,6,7,8,9,10];
+```
+The elements start at position zero "0";
+
+### Access the elements inside the array:
+```js
+const a = [1,2,3,4,5,6,7,8,9,10];
+
+console.log(a[0]);
+```
+Use square brackets and put the index number inside.  
+
+### Add an element inside the array
+Use "a.push();"
+
+a = the array
+push = function
+() = what you want to the array 
+
+```js
+const a = [1,2,3,4,5,6,7,8,9,10];
+
+a.push(11);
+
+console.log(a);
+```
+Push adds an element at the end of the list.  
+
+You can add strings or anything you want with "push".  
+
+You can put an array inside another array:
+```js
+const a = [1,2,3,4,5,6,7,8,9,10];
+
+a.push(11);
+a.push(["hi", "bye"])
+
+console.log(a);
+```
+
+### Nested arrays
+```js
+const a = [["hi", "bye"], [1, 2]];
+
+console.log(a);
+```
+
+To access the elements inside a nested array:
+```js
+const a = [["hi", "bye"], [1, 2]];
+
+console.log(a[0][0]);
+```
+
 
 
 
