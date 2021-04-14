@@ -758,7 +758,24 @@ let person = {
 
 console.log(person.hobbies[1])
 console.log(person.name)
+```
 
+### Modify properties inside an object
+```js
+let person = {
+    name: "Joe",
+    hobbies: ["Programming", "Music", "Hiking"],
+    address: {
+        street: "123 Main St.",
+        city: "Newport"
+    }
+}
+
+person.name = "Mark";
+
+console.log(person.name)
+```
+Use dot notation to access the property and then use "=" sign to assign a new value.
 
 
 
