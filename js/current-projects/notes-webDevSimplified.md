@@ -1,3 +1,7 @@
+# Index
+[Variable Types](#Variable_Types)
+[Normal Functions](#Normal_Functions)
+
 ## Variable Types
 ### Numbers
 
@@ -114,7 +118,7 @@ Taking variables you no longer use and removing them from the memory of the comp
 
 As the program is running, it will delete the variable it no longer needs.  
 
-### Normal Functions
+## Normal Functions
 A function is like a variable that contains the definition of a function.  
 
 ```js
@@ -595,13 +599,13 @@ It will outpu as true.
 # Array
 Basic syntax:
 ```js
-const a = [1,2,3,4,5,6,7,8,9,10];
+const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 ```
 The elements start at position zero "0";
 
 ### Access the elements inside the array:
 ```js
-const a = [1,2,3,4,5,6,7,8,9,10];
+const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 console.log(a[0]);
 ```
@@ -615,7 +619,7 @@ push = function
 () = what you want to the array 
 
 ```js
-const a = [1,2,3,4,5,6,7,8,9,10];
+const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 a.push(11);
 
@@ -627,7 +631,7 @@ You can add strings or anything you want with "push".
 
 You can put an array inside another array:
 ```js
-const a = [1,2,3,4,5,6,7,8,9,10];
+const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 a.push(11);
 a.push(["hi", "bye"])
@@ -647,11 +651,113 @@ To access the elements inside a nested array:
 const a = [["hi", "bye"], [1, 2]];
 
 console.log(a[0][0]);
+console.log(a[1][0]);
+```
+### The length of the array
+```js
+const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+console.log(a.length);
 ```
 
+# Objects
+A collection of elements related to each other in some way.  
 
+To create an object use curly brackets.  
+```js
+let car = {carBrand: "subaru", color: "green", carType: "sedan"}
+```
+Inside the curly brackets, a key-value pair go inside.
 
+carBrand = the key  
+subaru = the value  
 
+To get a single property of an object:
+```js
+let car = {carBrand: "subaru", color: "green", carType: "sedan"}
+
+console.log(car.carBrand);
+```
+
+### Add a Function to an object
+```js
+let car = {
+    carBrand: "subaru", 
+    color: "green", 
+    carType: "sedan",
+    sayHi: function () {
+        console.log("Hi");
+    }
+}
+console.log(car.color);
+car.sayHi();
+```
+To get the value from each property, use console.log.  
+To call out a function, don't use console.log.  
+
+sayHi is the property.  
+
+The function doesn't have to have a name because is declared by "sayHi".  
+
+Another way to add a function:
+```js
+let car = {
+    carBrand: "subaru", 
+    color: "green", 
+    carType: "sedan",
+    sayHi: function () {
+        console.log("Hi");
+    },
+    sayHi2() {
+        console.log("Hi");
+    }
+}
+
+car.sayHi();
+```
+Put "( )" after the property and then add the curly braces.  
+
+### Another way to access different properties
+```js
+console.log(car.color);
+```
+Instead of the dot notation to identify properties, you can also use brackets "[]".  
+Put a string to identify the property.  
+```js
+let car = {
+    carBrand: "subaru", 
+    color: "green", 
+    carType: "sedan",
+    sayHi: function () {
+        console.log("Hi");
+    },
+    sayHi2() {
+        console.log("Hi");
+    }
+}
+
+console.log(car["color"]);
+```
+But don't use this technique unless you have a variable named "property".  
+```js
+const property = "make"
+
+console.log(car["property"]);
+``` 
+
+### An object inside another object
+```js
+let person = {
+    name: "Joe",
+    hobbies: ["Programming", "Music", "Hiking"],
+    address: {
+        street: "123 Main St.",
+        city: "Newport"
+    }
+}
+
+console.log(person.hobbies[1])
+console.log(person.name)
 
 
 

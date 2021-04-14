@@ -1,5 +1,12 @@
-const a = [
-    [1, 2, 3, 4, 5],
-    [6, 7, 8, 9, 10],
-    [11, 12, 13, 14, 15]
-]
+let person = {
+    name: "Joe",
+    hobbies: ["Programming", "Music", "Hiking"],
+    address: {
+        street: "123 Main St.",
+        city: "Newport"
+    }
+}
+
+console.log(person.hobbies[2]);
+console.log(person.name);
+console.log(person.address.city);
