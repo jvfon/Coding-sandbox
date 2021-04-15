@@ -777,6 +777,18 @@ console.log(person.name)
 ```
 Use dot notation to access the property and then use "=" sign to assign a new value.
 
+## Reference vs Value
+
+When you give a variable a value, the actual value of the variable is saved in memory.  
+
+When you create an object or array, the values in the object and array are identifiers of a location in memory. The address(location) equates to a scpecific value.  
+
+If you have array c and array d is equal to array c, then both of them share the same location in memory.  
+
+If you modify array d, then array c is also changed since both array c and array d share the same location in memory.  
+
+
+
 
 
 
