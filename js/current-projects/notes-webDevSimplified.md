@@ -787,7 +787,16 @@ If you have array c and array d is equal to array c, then both of them share the
 
 If you modify array d, then array c is also changed since both array c and array d share the same location in memory.  
 
+If you compare two arrays with the same value, they will come out as "false".  
+```js
+let a = [1, 2];
+let b = [1, 2];
 
+console.log(a === b);
+```
+The output will be "false" because both arrays are in located in different memory locations.  
+
+The only time you need to worry about is when you try to redifine an array and/or an object because you will be trying to change where the memory location.  
 
 
 
