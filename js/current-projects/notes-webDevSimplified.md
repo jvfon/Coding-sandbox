@@ -798,6 +798,12 @@ The output will be "false" because both arrays are in located in different memor
 
 The only time you need to worry about is when you try to redifine an array and/or an object because you will be trying to change where the memory location.  
 
+The values are not compared but the references where the values are stored are compared.  
+
+Each array has a reference as its value.  
+
+
+
 
 
 
