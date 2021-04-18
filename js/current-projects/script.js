@@ -1,24 +1,7 @@
-let person = {
-    name: "Joe",
-    hobbies: ["Programming", "Music", "Hiking"],
-    address: {
-        street: "123 Main St.",
-        city: "Newport"
-    }
-}
+const a = [1, 2, 3, 4, 5];
 
-console.log(person.hobbies[2]);
-console.log(person.name);
-console.log(person.address.city);
+const newA = a.map((number) => {
+    return number * 2;
+})
 
-let book ={
-    title: "Once",
-    author: {
-        name: "Joe",
-        age: 45
-    }
-}
-
-book.title = "More";
-
-console.log(book.title);
+console.log(newA);

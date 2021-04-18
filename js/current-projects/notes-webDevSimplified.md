@@ -802,6 +802,117 @@ The values are not compared but the references where the values are stored are c
 
 Each array has a reference as its value.  
 
+### Pass-by-value
+```js
+let a = 10;
+let b = "Hi";
+```
+When you are setting a variable to a primitive this is pass by value, setting a variable to a value.  
+In ```let a = 10``` JS copies the value of "10" into the variable of "a".  
+
+```js
+let a = 10;
+let b = "Hi";
+let c = a;
+c = c + 1;
+```
+In ```let c = a``` the value of "a" is set to the variable of "c".  
+
+In ```c = c + 1``` the value of variable "c" is increased by one.  
+
+The value of "c" becomes 11 and the value of "a" stays at 10. This happens because these are values and not references. The value of "a" and "c" are two different 10's, which are two different values. The value of "c" doesn't reference the value of "a".
+
+
+### Pass-by-reference
+```js
+let a = 10;
+let b = "Hi";
+let c = [1, 2];
+let d = c;
+d.push(3);
+```
+C is an array and the value of an array and object is a memory reference, a reference.  
+
+In ``` d = c``` d has the same memory reference as c.  
+
+```d.push(3)``` here the memory reference for d and c is changing.  
+
+```js
+let a = 10;
+let b = "Hi";
+let c = [1, 2];
+let d = c;
+d = [3, 4, 5];
+```
+```d = [3, 4, 5]``` here d sets a new memory reference different than c for the array. The  value of d is overridden and not affecting the value(memory reference) of c.  
+
+With functions: 
+```js
+let c = [1, 2];
+console.log(c);
+
+add(c, 3);
+console.log(c);
+
+function add(array, element) {
+    array.push(element);
+}
+```
+on ```function add(array, element)...``` the "array" being passed is the actual memory reference that's being passed. You are also changing the array that is outside of the function as well.  
+
+```js
+let c = [1, 2];
+console.log(c);
+
+add(c, 3);
+console.log(c);
+
+function add(array, element) {
+    array = [element];
+}
+```
+If you set the array to be equal to "c", you are copying the memory reference onto a new memory reference and it the new array is not liked to the external array (c).  
+
+## Array Methods
+A method is a function on an object or something else.  
+
+### .forEach
+```js
+const a = [1, 2, 3, 4, 5];
+
+a.forEach(number => {
+    console.log(number);
+})
+```
+The function goes through each number.  
+
+It also take a second argument:
+```js
+const a = [1, 2, 3, 4, 5];
+
+a.forEach((number, index ) => {
+    console.log(number + " " + index);
+})
+```
+Besides the numbers, it also prints the index of each number.  
+
+### .map
+```js
+const a = [1, 2, 3, 4, 5];
+
+const newA = a.map((number) => {
+    return number * 2;
+})
+
+console.log(newA);
+```
+.map loops through each element in the array and returns the updated value of that array.   
+
+.map doesn't modify "a", it creates a brand new array.  
+
+### .filter
+Takes an array and filter down only select values.  
+```js
 
 
 
