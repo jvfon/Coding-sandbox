@@ -1,7 +1,9 @@
-const a = [1, 2, 3, 4, 5];
+function createUser(name, age) {
+    return { name: name, age: age }
+}
 
-const newA = a.map((number) => {
-    return number * 2;
-})
+const user = createUser('Joe', 109);
+console.log(user);
 
-console.log(newA);
+const date = new Date();
+console.log(date);

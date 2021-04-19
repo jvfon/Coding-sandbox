@@ -913,6 +913,151 @@ console.log(newA);
 ### .filter
 Takes an array and filter down only select values.  
 ```js
+const a = [1, 2, 3, 4, 5];
+const b = [1, 2];
+
+const newA = a.filter((number) => {
+    return number <= 2;
+})
+
+console.log(newA);
+```
+It doesn't modify "a" also.  
+
+### .find
+Tries to find an element and return the first element that matches what it is asked to find.  
+
+```js
+const a = [1, 2, 3, 4, 5];
+
+const newA = a.find((number) => {
+    return number > 2;
+})
+
+console.log(newA);
+```
+
+### .some
+Loops through an array and tries to find if at least one of the elements matches what is asked to find.  
+```js
+const a = [1, 2, 3, 4, 5];
+
+const isTrue = a.some((number) => {
+    return number > 2;
+})
+
+console.log(isTrue);
+```
+Are any of the elements in the array greater than 2? Returns true or false.  
+
+### .every
+Does every element in the array matches the condition?
+```js
+const a = [1, 2, 3, 4, 5];
+
+const isTrue = a.every((number) => {
+    return number > 2;
+})
+
+console.log(isTrue);
+```
+
+### .reduce
+Reduces the array to a single element by looping through the array and doing something each time. It takes at least two parameters.  
+```js
+const a = [1, 2, 3, 4, 5];
+
+const n = a.reduce((sum, number) => {
+    return sum + number;
+}, 0)
+
+console.log(n);
+```
+The first parameter is the previous value, the "accumulator" (sum). All the numbers in the array will be added. The sum is the number that is returned.  
+
+The second part of the first parameter is each number in the array.  
+
+The zero is the number that is first set "sum" to.  
+
+First "sum" is set to zero and then each number in the array is added to it. The result is the new "sum".  
+
+Ex: Use the reduce method to get the total price added together.
+```js
+const items = [
+    { price: 10},
+    { price: 20 },
+    { price: 14},
+    { price: 1},
+    { price: 6},
+]
+
+const totalPrice = items.reduce((sum, item) => {
+    return sum + item.price;
+}, 0)
+
+console.log(totalPrice);
+```
+items = each individual items the .reduce method is looping through.  
+
+### .include
+Checks to see if an element is included in an array. 
+```js
+const a = [1, 2, 3, 4, 5];
+
+const isTrue = a.includes(2);
+
+console.log(isTrue);
+```
+Checks to see if the number 2 is included in the array "a".  
+
+## String template literals
+The back ticks are called template strings or template literals.  
+Using back ticks " ` " to print strings.  
+```js
+
+let a = "Hello";
+let b = "World";
+
+console.log( `${a} ${b}`);
+```
+Inside the "${}" you can put variables or any javascript code.  
+
+## New and This
+
+A function to create an user object:
+```js
+function createUser(name, age) {
+    return { name: name, age: age }
+}
+
+const user = createUser('Joe', 109);
+console.log(user);
+```
+
+Other ways to create an object with the same properties is similar to:
+```js
+const date = new Date();
+console.log(date);
+```
+The "new" keyword is used.  
+
+The Date function also has many methods after putting the dot "." after the keyword ```console.log(date.)```.  
+
+When you create an object with the "new" keyword, you call it the "constructor" when you pass in information.  
+
+Capitalize the first letter of the function when you use a constructor. This function is called a constructor function because it constructs an object of a specified type.  
+```js
+function User(name, age) {
+    this = {}
+
+    return this
+}
+```
+The keyword "this" is used. It references the constructor you are creating.  
+
+When you call a constructor, it sets the keyword "this" to an empty object and at the end, it returns "this" for you.  
+
+
 
 
 
