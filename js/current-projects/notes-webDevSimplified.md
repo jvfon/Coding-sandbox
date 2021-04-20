@@ -1069,7 +1069,46 @@ console.log(user);
 ```
 The object has a type of "User" because that is what the constructor function was named.  
 
+"this" is an object and it represents the "User" that is being referenced here.  
 
+### Build constructive functions in a class format
+```js
+class User {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+        this.human = true;
+    }
+}
+
+const user = new User("Sally", 25);
+console.log(user);
+```
+It is easy to add a function here.  
+```js
+class User {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+        this.human = true;
+    
+    }
+
+    printName() {
+        console.log(this.name)
+    }
+}
+const user = new User("Sally", 25);
+const user2 = new User("Joey", 35);
+user.printName();
+user2.printName();
+```
+"this.name" inside the function is to reference the instance of the user.  
+
+When you create a second user, it will be easy to know that there are two different users.  
+
+## Basic DOM manipulation
+### Async and Defer
 
 
 
