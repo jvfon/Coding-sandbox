@@ -1,9 +1,7 @@
-function createUser(name, age) {
-    return { name: name, age: age }
+function User(name, age) {
+    this.name = name;
+    this.age = age;
+    this.human = true;
 }
-
-const user = createUser('Joe', 109);
+const user = new User("Sally", 25);
 console.log(user);
-
-const date = new Date();
-console.log(date);

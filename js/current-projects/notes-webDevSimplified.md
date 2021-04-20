@@ -1049,7 +1049,7 @@ Capitalize the first letter of the function when you use a constructor. This fun
 ```js
 function User(name, age) {
     this = {}
-
+    // code to set up property on "this" goes here
     return this
 }
 ```
@@ -1057,7 +1057,17 @@ The keyword "this" is used. It references the constructor you are creating.
 
 When you call a constructor, it sets the keyword "this" to an empty object and at the end, it returns "this" for you.  
 
-
+So to create a constructor function: 
+```js
+function User(name, age) {
+    this.name = name;
+    this.age = age;
+    this.human = true;
+}
+const user = new User("Sally", 25);
+console.log(user);
+```
+The object has a type of "User" because that is what the constructor function was named.  
 
 
 
