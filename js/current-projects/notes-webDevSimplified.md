@@ -1110,6 +1110,102 @@ When you create a second user, it will be easy to know that there are two differ
 ## Basic DOM manipulation
 ### Async and Defer
 
+HTML is parsed from top to bottom:
+```html
+<html>
+    <head>
+        <scritp src="js.js"></script> // downloads this before it continues.
+    </head>
+    <body>
+        <img src="image.png">  // downloads this in the background but it continues
+        <h1>Title</h1>
+        <p>Content</p>
+    </body>
+</html>
+```
+
+With Async, HTML starts downloading then JS but HTML continues and stops when JS begin executing, then HTML continues downloading. It is inconsistend when JS runs.  
+
+With Defer, HTML and JS are downloaded first and at the end JS executes. With normal JS For this to happen, you need to move the script tag to the bottom of the body but with Defer there is no need to do it but you get the benefit of running the script after HTML has been loaded.  
+
+```html
+<html>
+    <head>
+        <title></title>
+        <script defer src="defer.js"></script>
+    </head>
+</html>
+```  
+
+### Window
+It is the global object for the entire browser.  
+```js
+console.log("Hi");
+window.console.log("Hi");
+```
+With or without "window" console.log will print "Hi".  It is understood that a window method doesn't need the "window." preceding it for the method to work.  
+
+### Document
+It is the HTML of the entire page. It is the way you interact with the page.  
+
+Ex: to get the body:
+```js
+console.log(document.body);
+```
+
+To create an element:
+```js
+const element = document.createElement("span");
+```
+
+To put text inside the span tags and add it to the end of the body of the document:
+```js
+const element = document.createElement("span");
+element.innerText = "Hello World";
+document.body.appendChild(element); 
+```
+For this script to work, place ```<script src="script.js"></script>``` at the bottom of the ```<body></body>``` tag.  
+
+### Id and Class selectors
+Select an id:
+```js
+console.log(document.getElementById("div-id"));
+```
+
+Modify the text inside an id:
+```js
+const divWithId = console.log(document.getElementById("div-id"));
+const divWithId = document.getElementById("div-id");
+
+divWithId.style.color = 'red'
+```
+There is no need to use console.log to select the id.  
+Set the selector to a variable and use the variable to change the id.  
+
+To select divs with the same class name:
+```js
+const divsWithClass = document.getElementsByClassName("div-class");
+
+console.log(divsWithClass);
+```
+Since you are gathering all classes with the same name, the variable "disWithClass" is an HTML collection but not an array.  
+
+You need to convert the HTML collection to an array.  
+```js
+const divsWithClass = document.getElementsByClassName("div-class");
+
+const divsWithClassArray = Array.from(divsWithClass);
+
+divsWithClassArray.forEach(div => (div.style.color = "green"));
+```
+
+
+
+
+
+
+
+
 
 
 
