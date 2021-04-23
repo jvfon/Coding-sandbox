@@ -1198,6 +1198,19 @@ const divsWithClassArray = Array.from(divsWithClass);
 
 divsWithClassArray.forEach(div => (div.style.color = "green"));
 ```
+Use the "Array" keyword to change the HTML collection to an array to have access to the ".forEach" array method.  
+
+To get only one individual class:
+```js
+const divsWithClass = document.getElementsByClassName("div-class");
+
+divsWithClass[0].style.color = "green";
+```
+Use "[]" to select only one class.  
+
+### Query Selectors
+Select an element based on anything that you want.  
+
 
 
 
