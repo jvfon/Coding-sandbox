@@ -1210,6 +1210,100 @@ Use "[]" to select only one class.
 
 ### Query Selectors
 Select an element based on anything that you want.  
+```js
+document.querySelector
+document.querySelectorAll
+```
+The fist one selects a single element. The second one selects an array of elements that selects the specified selectors.  
+
+```js
+document.querySelector('[data-test]');
+```
+Selects a div with the attribute of "data-test".  
+
+To test this:
+```js
+const dataAttributeElement = document.querySelector('[data-test]');
+
+console.log(dataAttributeElement);
+```
+
+If you want to select all divs with an attribute selected
+```js
+const dataAttributeElement = document.querySelectorAll('[data-test]');
+
+console.log(dataAttributeElement);
+```
+You get a node list which is similar to an array with all the divs that match the attribute.  
+
+If you have multiple divs with the same class and you use "document.querySelector", only the first div will be selected.  
+```js
+const divsWithClasses = document.querySelector(".div-class");
+
+console.log(divsWithClasses);
+```
+
+Change a div attribute:
+```js
+const divsWithClasses = document.querySelector(".div-class");
+
+dataAttributeElement.style.color = "green";
+
+console.log(divsWithClasses);
+```
+
+
+
+### Select all divs with the same class
+To select all the divs with the same class:
+```js
+const divsWithClasses = document.querySelectorAll(".div-class");
+
+console.log(divsWithClasses);
+```
+
+To change divs with the same class:
+```js
+const divsWithClasses = document.querySelectorAll(".div-class");
+
+divsWithClasses.forEach(div => (div.style.color = "red"));
+
+console.log(divsWithClasses);
+```
+Node lists can use some of the array methods. If you want to use all of the array methods, you will want to covert the node list into an array.  
+```js
+const divsWithClasses = document.querySelectorAll(".div-class");
+
+Array.from(divsWithClasses);
+divsWithClasses.forEach(div => (div.style.color = "red"));
+
+console.log(divsWithClasses);
+```
+
+### Selecting an <input> tag
+```js
+const input = document.querySelector("input");
+
+console.log(input);
+```
+
+To be more specific:
+```js
+const input = document.querySelector("body > input[type='text']");
+
+console.log(input);
+```
+Select the input tag inside the ```<body>``` with specific text inside.  
+
+
+
+
+
+
+
+
+
+
 
 
 

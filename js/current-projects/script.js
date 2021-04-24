@@ -1,7 +1,18 @@
-const divsWithClass = document.getElementsByClassName("div-class");
+const dataAttributeElement = document.querySelector("[data-test]");
 
-// const divsWithClassArray = Array.from(divsWithClass);
+dataAttributeElement.style.color = "green";
 
-// divsWithClassArray.forEach(div => (div.style.color = "green"));
+console.log(dataAttributeElement);
 
-divsWithClass[0].style.color = "blue";
+
+const divsWithClasses = document.querySelectorAll(".div-class");
+
+Array.from(divsWithClasses);
+divsWithClasses.forEach(div => (div.style.color = "red"));
+
+console.log(divsWithClasses);
+
+
+const input = document.querySelector("body > input[type='text']");
+
+console.log(input);
