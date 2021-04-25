@@ -1295,6 +1295,22 @@ console.log(input);
 ```
 Select the input tag inside the ```<body>``` with specific text inside.  
 
+### Event listeners
+Let's start with a button:
+```html
+<button data-button>Click Me</button>
+```
+
+To make the button interactive, you need to select the button and add a JS "event listener".  
+
+The event listener takes two properties, the first one is the event you want to listen for and the second property is the function that runs every time this event happens.  
+```js
+const button = document.querySelector('[data-button]');
+
+button.addEventListener('click', () => {
+    console.log('clicked');
+})
+```
 
 
 
