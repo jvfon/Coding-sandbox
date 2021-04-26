@@ -1312,6 +1312,159 @@ button.addEventListener('click', () => {
 })
 ```
 
+If can also add another event simultaneously so when you click the button once, JS will record 2 events.
+```js
+const button = document.querySelector('[data-button]');
+
+button.addEventListener('click', () => {
+    console.log('clicked');
+})
+
+button.addEventListener('click', () => {
+    console.log('clicked-2');
+})
+```
+
+### Remove an eventListener
+Just adding the method "removeEventListener" won't work because it has a different function from the first "addEventListener" since they both are in different places.  
+```js
+const button = document.querySelector('[data-button]');
+
+button.addEventListener('click', () => {
+    console.log('clicked');
+})
+
+button.addEventListener('click', () => {
+    console.log('clicked-2');
+})
+
+button.removeEventListener('click', () => {
+    console.log('clicked')
+})
+```
+
+To remove an "eventListner" create one overall function and then pass the function to the event listeners.
+```js
+const button = document.querySelector('[data-button]');
+
+function printClick() {
+    console.log('clicked');
+}
+
+button.addEventListener('click', printClick)
+
+button.removeEventListener('click', printClick);
+```
+
+JS gives you an event object.  
+```js
+const button = document.querySelector('[data-button]');
+
+button.addEventListener('click', e => {
+    console.log(e);
+});
+```
+"e" is the event object. You can use this event object to see if the input is valid.  
+
+### Check if input is valid
+Create an input in html
+```html
+<body> 
+    <input data-input-text type="text" />
+</body>
+```
+
+Create an event listener to check every time the button is clicked after text is entered in the text field.  
+```js
+const input = document.querySelector('[data-input-text]');
+
+input.addEventListener("change", () => {
+    console.log("changed");
+})
+```
+
+To run an "eventListener" every time you put something in the text field, you need to put "input" as the first value.  
+```js
+const input = document.querySelector('[data-input-text]');
+
+input.addEventListener("input", () => {
+    console.log("input");
+})
+```
+To check if what you put in the text field has a value or not, run a small check.  
+```js
+const input = document.querySelector('[data-input-text]');
+
+input.addEventListener("input", e => {
+    console.log(e.target.value === "");
+})
+```
+You want to get the value.  
+If the value equals and empty string then it will be true and false if it's not.  
+
+### Submitting a form
+What happends when you submit a form?
+```html
+<body> 
+
+    <form data-form action="">
+        <input data-input-text type="text" />
+
+        <button type="submit" data-button>Click Me</button>
+    </form>
+```
+```js
+const form = document.querySelector("[data-form");
+
+form.addEventListener('submit', e => {
+    console.log('submitted form');
+});
+```
+Up to here when you click the submit button, the page is updated with new info from the text field by default.  
+
+
+```js
+const form = document.querySelector("[data-form");
+
+form.addEventListener('submit', e => {
+    e.preventDefault();
+    console.log('submitted form');
+});
+```
+By adding the method ".preventDefault", the "eventListener" is able to catch the action without the default action kicking in and thus preventing the page from being updated with the new info.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
