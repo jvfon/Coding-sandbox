@@ -7,7 +7,7 @@ form.addEventListener('submit', e => {
 
 const ancla = document.querySelector('[data-anchor]');
 
-ancla.addEventListener('guitar', e => {
+ancla.addEventListener('click', e => {
     e.preventDefault();
     console.log('warmoth site');
 })

@@ -1433,6 +1433,27 @@ form.addEventListener('submit', e => {
 ```
 By adding the method ".preventDefault", the "eventListener" is able to catch the action without the default action kicking in and thus preventing the page from being updated with the new info.  
 
+### Some common .eventListeners:
+mouseenter - When the pointer goes over the object.  
+```js
+a.addEventListener("mouseenter", e => {
+ 
+})
+```
+ 
+mouseleave - When the pointer is remove from the object.  
+
+mousehover - When the mouse moves along the object.  
+
+focus - When giving focus to the object, tab on it, click the object, etc.  
+
+blur - When you tab on the object and then leave.  
+
+resize - When you resize the window.  
+```js
+window.addEventListener("resize, () => console.log("resize"))
+```
+
 
 
 
