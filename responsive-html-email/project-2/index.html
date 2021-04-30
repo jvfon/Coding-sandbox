@@ -9,6 +9,7 @@
 		body {
 			Margin: 0;
 			padding: 0;
+			background-color: #f6f9fc;
 		}
 		table {
 			border-spacing: 0;
@@ -19,6 +20,52 @@
 		img {
 			border: 0;
 		}
+		.wrapper {
+			width: 100%;
+			table-layout: fixed; /* so wrapper won't be any wider than table inside of it */
+			background-color: #f6f9fc;
+			padding-bottom: 40px;
+		}
+		.webkit {
+			width: 600px;
+			background-color: #ffffff;
+		}
+		.outer {
+			Margin: 0 auto; /* reinforce centering and "M" in caps for Outlook compatibility*/
+			width: 100%; /* 100% of parent webkit */
+			max-width: 600px; /*reinforce width */
+			border-spacing: 0;
+			font-family: sans-serif;
+			color: #4a4a4a;  
+		}
+		.three-columns {
+			/* font-size: 0; only for Outlook
+			line-height: 0; only for Outlook*/
+			text-align: center;
+			font-size: 0;
+			padding-top: 40px;
+			padding-bottom: 30px;
+		}
+		.three-columns .column {
+			width: 100%;
+			max-width: 200px; /*so it fits cell phones*/
+
+			/* Makes tables responsive */
+			display: inline-block; /*makes table align next to eachother*/
+			vertical-align: top;
+		}
+		.padding {
+			padding: 15px; /*add padding top/bottom, etc for Outlook */
+		}
+		.three-columns .content {
+			font-size: 15px;
+			line-height: 20px;
+		}
+		a {
+			text-decoration: none;
+			color: #388cda;
+			font-size: 16px;
+		}
 
 		@media screen and (max-width: 600px) { 
 		}
@@ -28,9 +75,154 @@
 </head>
 <body>
 
-	<div class="email-course" style="margin: 20px 50px;">
+	<!-- <div class="email-course" style="margin: 20px 50px;">
 	<a href="https://w3newbie.com/email-course/" target="_blank" style="background-color: #3273d1;color: white;padding: 15px 32px;text-decoration: none;border-radius: 10px;display: inline-block;font-size: 18px;font-weight: 600;font-family: sans-serif;cursor: pointer;">HTML Email Mastery Course</a>
-	</div>
+	</div> -->
+
+	<center class="wrapper">
+		<div class="webkit">
+
+			<table class="outer" align="center">
+
+					<tr>
+						<td>
+							<table width="100%" style="border-spacing:0;">
+								<tr>
+									<td style="background-color:#388cda;padding:10px;text-align:center;"> 
+										<a href="http://w3newbie.com"><img src="img/w3newbie-white.png" width="180" alt="logo" title="logo"></a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+					<tr>
+						<td><a href="#"><img src="img/1200x700.jpg" width="600" alt="banner" style="max-width:100%;"></a></td>
+					</tr>
+
+					<tr>
+						<td>
+							<table width="100%" style="border-spacing:0;">
+								<tr>
+									<td class="three-columns">
+										<!-- start-first column -->
+										<table class="column">
+											<tr>
+												<!-- start-padding to separate each column -->
+												<td class="padding">
+
+													<!-- start-content for each column -->
+													<table class="content">
+														<tr>
+															<td><a href="#"><img src="img/380x280.jpg" width="150" alt="Apple Watch" style="max-width:150px;"></a>
+															</td>
+														</tr>
+														<!-- start-padding for content image -->
+														<tr>
+															<td style="padding:10px;"> <!-- to separate it form img -->
+																<p style="font-size:17px;font-weight:bold;">APPLE WATCH</p>
+																<p>Responsive HTML Email Templates that you can build around to master email development.</p>
+																<a href="#">Learn more..</a>
+															</td>
+														</tr>
+														<!-- end-padding for content image -->
+													</table>
+													<!-- end-content for each column -->
+												
+												</td>
+												<!-- end-padding to separate each column -->
+											</tr>
+										</table>
+										<!-- end-first column -->
+
+										<!-- start-second column -->
+										<table class="column">
+											<tr>
+												<!-- start-padding to separate each column -->
+												<td class="padding">
+
+													<!-- start-content for each column -->
+													<table class="content">
+														<tr>
+															<td><a href="#"><img src="img/380x280-2.jpg" width="150" alt="Ear Pods" style="max-width:150px;"></a>
+															</td>
+														</tr>
+														<!-- start-padding for content image -->
+														<tr>
+															<td style="padding:10px;"> <!-- to separate it form img -->
+																<p style="font-size:17px;font-weight:bold;">EAR PODS</p>
+																<p>Responsive HTML Email Templates that you can build around to master email development.</p>
+																<a href="#">Learn more..</a>
+															</td>
+														</tr>
+														<!-- end-padding for content image -->
+													</table>
+													<!-- end-content for each column -->
+												
+												</td>
+												<!-- end-padding to separate each column -->
+											</tr>
+										</table>
+										<!-- end-second column -->
+
+										<!-- start-third column -->
+										<table class="column">
+											<tr>
+												<!-- start-padding to separate each column -->
+												<td class="padding">
+
+													<!-- start-content for each column -->
+													<table class="content">
+														<tr>
+															<td><a href="#"><img src="img/380x280-3.jpg" width="150" alt="Watch Band" style="max-width:150px;"></a>
+															</td>
+														</tr>
+														<!-- start-padding for content image -->
+														<tr>
+															<td style="padding:10px;"> <!-- to separate it form img -->
+																<p style="font-size:17px;font-weight:bold;">WATCH BANDS</p>
+																<p>Responsive HTML Email Templates that you can build around to master email development.</p>
+																<a href="#">Learn more..</a>
+															</td>
+														</tr>
+														<!-- end-padding for content image -->
+													</table>
+													<!-- end-content for each column -->
+												
+												</td>
+												<!-- end-padding to separate each column -->
+											</tr>
+										</table>
+										<!-- end-third column -->
+
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+				<!-- start-contact section	 -->
+				<tr>
+					<td>
+						<table width="100%" style="border-spacing:0;">
+
+							<tr>
+								<!-- social icons will be wrapped around in links, text-align:center will take care of centering the images -->
+								<td style="background-color:#388cda;padding:15px;text-align:center;">
+
+									<p style="font-size:18px;color:#ffffff;margin-bottom:13px">Connect with us</p>
+								
+								</td>
+							</tr>
+
+						</table>
+					</td>
+				</tr>
+				<!-- end-contact section -->
+			</table>
+
+		</div>
+	</center>
 
 </body>
 </html>
