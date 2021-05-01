@@ -67,9 +67,23 @@
 			font-size: 16px;
 		}
 
+		/* at 600px the image with class "third-img-last" will have a width of 200px */
 		@media screen and (max-width: 600px) { 
+			img.third-image-last {
+				width: 200px!important;
+				max-width: 200px!important;
+			}
+			/* padding all around doesn't allow the image to center. Padding-right and left are 0 to allow padding top/bottom to remain. */
+			.padding {
+				padding-right: 0!important;
+				padding-left: 0!important;
+			}
 		}
 		@media screen and (max-width: 400px) { 
+			img.third-image {
+				width: 200px!important;
+				max-width: 200px!important;
+			}
 		}
 	</style>
 </head>
@@ -114,7 +128,7 @@
 													<!-- start-content for each column -->
 													<table class="content">
 														<tr>
-															<td><a href="#"><img src="img/380x280.jpg" width="150" alt="Apple Watch" style="max-width:150px;"></a>
+															<td><a href="#"><img class="third-img" src="img/380x280.jpg" width="150" alt="Apple Watch" style="max-width:150px;"></a>
 															</td>
 														</tr>
 														<!-- start-padding for content image -->
@@ -144,7 +158,7 @@
 													<!-- start-content for each column -->
 													<table class="content">
 														<tr>
-															<td><a href="#"><img src="img/380x280-2.jpg" width="150" alt="Ear Pods" style="max-width:150px;"></a>
+															<td><a href="#"><img class="third-img" src="img/380x280-2.jpg" width="150" alt="Ear Pods" style="max-width:150px;"></a>
 															</td>
 														</tr>
 														<!-- start-padding for content image -->
@@ -174,7 +188,7 @@
 													<!-- start-content for each column -->
 													<table class="content">
 														<tr>
-															<td><a href="#"><img src="img/380x280-3.jpg" width="150" alt="Watch Band" style="max-width:150px;"></a>
+															<td><a href="#"><img class="third-img-last" src="img/380x280-3.jpg" width="150" alt="Watch Band" style="max-width:150px;"></a>
 															</td>
 														</tr>
 														<!-- start-padding for content image -->
@@ -210,8 +224,17 @@
 								<!-- social icons will be wrapped around in links, text-align:center will take care of centering the images -->
 								<td style="background-color:#388cda;padding:15px;text-align:center;">
 
-									<p style="font-size:18px;color:#ffffff;margin-bottom:13px">Connect with us</p>
-								
+									<!-- styling for this text is unique -->
+									<!-- margin-bottom to secparate text from -->
+									<p style="font-size:18px;color:#ffffff;margin-bottom:13px">Connect with us</p>"
+									
+									<!-- social media icons -->
+									<a href="#"><img src="img/white-facebook.png" width="30" alt=""></a>
+									<a href="#"><img src="img/white-twitter.png" width="30" alt=""></a>
+									<a href="#"><img src="img/white-youtube.png" width="30" alt=""></a>
+									<a href="#"><img src="img/white-linkedin.png" width="30" alt=""></a>
+									<a href="#"><img src="img/white-instagram.png" width="30" alt=""></a>
+
 								</td>
 							</tr>
 
@@ -219,6 +242,44 @@
 					</td>
 				</tr>
 				<!-- end-contact section -->
+
+				<!-- start-footer -->
+				<tr>
+					<td style="background-color:#efefef;">
+						<table width="100%" style="border-spacing:0;">
+
+							<tr>
+								<!-- text-align:center; centers the image -->
+								<td style="padding:20px;text-align:center;padding-bottom:10px;">
+								
+									<a href="#"><img src="img/w3newbie.png" alt="" width="160"></a>
+
+									<p style="font-size:16px;margin-top:18px;margin-bottom:10px;">w3newbie HTML Email</p>
+									<p style="font-size:16px;margin-bottom:18px;">123 State Road, City State 55555</p>
+
+									<!-- mailto link calls email client to send an email -->
+									<p><a href="mailto:email@example.com">email@example.com</a></p>
+
+									<p><a href="tel:18001234567">1-800-123-4567</a></p>
+								
+								</td>
+
+							</tr>
+
+							<tr>
+								<td align="center" style="padding-bottom:25px;text-align:center;">
+								
+									<p><a href="#" style="font-size:13px;">UNSUBSCRIBE</a></p>
+
+								</td>
+							</tr>
+
+							<tr>
+								<td height="20" style="background-color:#388cda;"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
 			</table>
 
 		</div>
