@@ -1,74 +1,130 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1</title>
-    <link rel="stylesheet" href="style.css">
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-</head>
-<body>
-    <!-- start of html email -->
-    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-            <td>
-                <!-- start of container -->
-    <table width="100%" border-spacing="0" cellspacing="0" cellpadding="0">
-                <table class="container" swidth="600" style="align:center" cellscpacing="0" cellpadding="0" border="0">
-                    <!-- start of main row -->
-                    <tr>
-                        <td>
-                            <table class="container" width="50%" text-align="center" cellscpacing="0" cellpadding="0" border="0"></table>
-                                left
-                            </table>
-                            <table class="container" width="50%" text-align="center" cellscpacing="0" cellpadding="0" border="0">
-                                right
-                            </table>
+    <!-- <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark"> -->
+	<title>HTML Email Template Boilerplate</title>
+    <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
-                        </td>
-                    </tr>
-                    <!-- end of main row -->
-                    <!-- start of main row -->
+    table {
+        border-spacing: 0;
+    }
+    td {
+        padding: 0;
+    }
+    p {
+        font-size: 16px;
+    }
+    img {
+        border: 0;
+    }
+
+	@media screen and (max-width: 599.98px) {
+
+    }
+    @media screen and (max-width: 399.98px) {
+
+    }
+
+      /* Custom Dark Mode Colors */
+
+    @media (prefers-color-scheme: dark) {
+
+    }
+	</style>
+
+        <!-- "border-collapse:collapse" so there is no spacing around the banner image and Outlook email client -->
+        <!--[if (gte mso 9)|(IE)]>
+        <style type="text/css">
+            table {border-collapse: collapse!important;}
+        </style>
+    <![endif]-->   
+
+
+</head>
+<body style="margin:0;padding:0;min-width:100%;background-color:#dde0e0;">
+    
+    <!-- this is for Outllok only: if (gte) greater than or equal to (mso 9) outlook 2000 -->
+    <!--[if (gte mso 9)|(IE)]>
+        <style type="text/css">
+            body {background!-color:#dde0e0;!important"}
+            body, table, td, p, a {font-family: sans-serif, Arial, Helvetica!important;}
+        </style>
+    <![endif]-->    
+
+    <!-- width 100% to control the centering and table-layout fixed to control table width -->
+    <!-- and reinforce the background color -->
+    <center style="width:100%;table-layout:fixed;background-color:#dde0e0;padding-bottom: 40px;" >
+        <!-- box-shadow: horiztal vertical shadow-size color -->
+        <div style="max-width: 600px;background-color: #fafdfe;box-shadow: 0 0 10px rgba(0,0,0,.2">
+            <!-- start-preheader -->
+            <!-- styling so it won't show in the email template body -->
+            <!-- mso so microsoft displays at the minimal size -->
+            <!-- mso-hide: hides the style decoration -->
+            <div style="font-size: 0px;color: #fafdfe;line-height: 1px;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: o;overflow: hidden;mso-hide: all;">
+                <!-- add preheader here - 85-100 characters in length -->
+            </div>
+            <!-- end-preheader -->
+
+            <!-- Outlook ghost table -->
+            <!-- td padding 0 to remove horizontal padding around the table -->
+            <!--[if (gte mso 9)|(IE)]>
+            <style type="text/css">
+                <table width="600" align="center" style="border-spacing: 0;color: #565656;" role="presentation">
                     <tr>
-                        <td></td>
-                    </tr>
-                    <!-- end of main row -->
-                    <!-- start of main row -->
-                    <tr>
-                        <td></td>
-                    </tr>
-                    <!-- end of main row -->
-                    <!-- start of main row -->
-                    <tr>
-                        <td></td>
-                    </tr>
-                    <!-- end of main row -->
-                    <!-- start of main row -->
-                    <tr>
-                        <td></td>
-                    </tr>
-                    <!-- end of main row -->
-                    <!-- start of main row -->
-                    <tr>
-                        <td></td>
-                    </tr>
-                    <!-- end of main row -->
-                    <!-- start of main row -->
-                    <tr>
-                        <td></td>
-                    </tr>
-                    <!-- end of main row -->
-                    <!-- start of main row -->
-                    <tr>
-                        <td></td>
-                    </tr>
-                    <!-- end of main row -->
-                </table>
-                <!-- end of container -->
-            </td>
-        </tr>
-    </table>
-    <!-- end of html email -->
+                        <td style="padding:0;">
+            <![endif]-->  
+
+            <!-- start-real table -->
+            <!-- the only time where font family is mentioned -->
+            <!-- "role=presentation" added to every table for screen readers so the machine doesn't try to interpret html inside the email and focuses on the content instead of the table tags-->
+            <table align="center" style="border-spacing: 0;color: #565656;font-family: 'Lato', sans-serif, Arial, Helvetica!important;background-color: #fafdfe;Margin: 0;padding: 0;width: 100%;max-width: 600px;" role="presentation">
+
+            <!-- START SOCIAL ICONS -->
+            
+            <!-- END SOCIAL ICONS -->
+
+            <!-- START LOGO -->
+            <!-- END LOGO -->
+
+            <!-- START BANNER -->
+            <!-- END BANNER -->
+
+            <!-- START TWO COLUMNS -->
+            <!-- END TWO COLUMNS -->
+
+            <!-- START TWO THIRDS COLUMNS -->
+            <!-- END TWO THIRDS COLUMNS -->
+
+            <!-- START THREE COLUMNS -->
+            <!-- END THREE COLUMNS -->
+
+            <!-- START FOUR COLUMNS -->
+            <!-- END FOUR COLUMNS -->
+
+            <!-- START GREEN BORDER -->
+            <!-- END GREEN BORDER -->
+
+            <!-- START FOOTER -->
+            <!-- END FOOTER -->
+
+            </table>
+
+            <!-- end ghost table -->
+            <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                </tr>
+            </table>
+            <![endif]-->  
+
+        </div>
+    </center>
+
 </body>
 </html>
+
+
