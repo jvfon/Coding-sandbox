@@ -167,17 +167,41 @@
                                                 <tr>
 
                                                     <!-- conditional statement to make sure there is space top and bottom in Outlook  -->
+                                                    <!-- adding a ghost data table with padding -->
                                                     <!--[if (gte mso 9)|(IE)]>
-                                                        <style type="text/css">
-                                                            <table width="600" align="center" style="border-spacing: 0;color: #565656;" role="presentation">
-                                                                <tr>
-                                                                    <td style="padding:0;">
-                                                    <![endif]--> 
+                                                        <td style="padding-top: 100px;padding-bottom: 25px;">
+                                                    <![endif]-->
+
+                                                        <!-- padding added so the text is not too close to the edge on narrow screens     -->
+                                                        <td align="center" style="font-size: 30px;line-heigth: 30px;color: #ffffff;padding: 10px 10px 20px 10px;font-weight: bold;">
+                                                            <p style="font-size: 30px;line-heigth: 30px;color: #ffffff;font-weight: bold;">Responsive HTML Email Template</p>
+                                                        </td>
+
+                                                    <!--[if (gte mso 9)|(IE)]>
+                                                        </td>
+                                                    <![endif]-->
 
                                                 </tr>
                                             </table>
                                         </td>
                                     </tr>
+
+                                    <!-- start-button -->
+                                    <tr>
+                                    <td align="center">
+                                        <table class="darkmode-transparent" cellpadding="0" cellspcacing="0" role="presentation">
+                                            <tr>
+                                                <!-- border radius added to td and a -->
+                                                <td style="border-radius: 10px;" bgcolor="#eff8fe">
+                                                    <!-- border added so it button displays on Outlook -->
+                                                    <!-- bg color attribute for Outlook -->
+                                                    <!-- display: inline-block so Outlook respects the background color -->
+                                                    <a href="https://example.com" target="_blank" style="font-size: 17px; font-weight: bold;text-decoration:none;color:#1e5d7b;background-color: #eff8fe;border:1px solid #eff8fe;border-radius: 10px;padding: 12px 20px;display: inline-block;">VIEW DEMO</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <!-- end-button         -->
 
                                 </table>
                             </td>
@@ -192,12 +216,71 @@
                 <!-- VML language tags are closed here -->
                 <!-- end-Vector Markup Language -->
             
-
                 </td>
             </tr>
             <!-- END BANNER -->
 
             <!-- START TWO COLUMNS -->
+            <tr>
+                <td style="padding: 35px 0 30px 0;">
+                    <table width="100%" style="border-spacing: 0;" role="presentation">
+                        <tr>
+                            
+                            <!-- padding and font size set to zero so the content will fit inside the 300px columns. -->
+                            <td class="two-columns" style="padding: 0;font-size: 0;text-align: center;">
+
+                                <!-- start-ghost column -->
+                                <!-- valign similar to vertical align, requires columns to display next to another -->
+                                <!--[if (gte mso 9)|(IE)]>
+                                    <table width="100" style="border-spacing: 0";role="presentation" >
+                                        <tr>
+                                            <td width="300" valign="top" styel="padding: 0;">
+                                <![endif]-->  
+
+                                <table class="column" style="border-spacing: 0;vertical-align: top;width: 100%;max-width: 300px;display: inline-block;" role="presentation">
+                                    <tr>
+                                        <td class="padding" style="padding: 20px;">
+
+                                            <table class="content" style="border-spacing: 0;text-align: left;" role="presentation">
+
+                                                <!-- start-image 1-->
+                                                <tr>
+                                                    <td>
+                                                        <!-- width=260px to leave space for the padding added before -->
+                                                        <a href="https://example.com" target="_blank"><img src="https://i.ibb.co/Tmg3qbV/man-teal.jpg" alt="" width="260" style="max-width: 260px;border-radius: 8px;" border="0"></a>
+                                                    </td>
+                                                </tr>
+                                                <!-- end-image 1 -->
+                                                <!-- start-content -->
+                                                <tr>
+                                                    <td style="padding: 10px 10px 20px 10px;">
+                                                        <p style="font-size: 17px;font-weight: bold;">Build Responsive Emails</p>
+
+                                                        <p styel="font-size: 15px;">
+                                                            Responsive HTML Email Templates that you can build around to master email development.
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                                <!-- end-content -->
+
+                                            </table>
+
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <!--[if (gte mso 9)|(IE)]>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                <![endif]-->
+                                <!-- end-ghost table -->
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
             <!-- END TWO COLUMNS -->
 
             <!-- START TWO THIRDS COLUMNS -->
