@@ -16,7 +16,7 @@
     
     <style type="text/css">
         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-
+        /* resents */
         table {
             border-spacing: 0;
         }
@@ -104,7 +104,7 @@
 
 	</style> */
 
-        <!-- "border-collapse:collapse" so there is no spacing around the banner image and Outlook email client -->
+        <!--* "border-collapse:collapse" so there is no spacing around the banner image and Outlook email client -->
         <!--[if (gte mso 9)|(IE)]>
             <style type="text/css">
                 table {border-collapse: collapse !important;}
@@ -126,22 +126,29 @@
         </style>
     <![endif]-->    
 
-    <!--* width 100% to control the centering and table-layout fixed to control table width -->
+    <!--* width 100% to control the centering, table-layout fixed to control table width -->
     <!--* and reinforce the background color -->
     <center style="width:100%;table-layout:fixed;background-color:#dde0e0;padding-bottom: 40px;" >
-        <!--* box-shadow: horiztal vertical shadow-size color -->
+
+        <!--* no need for this div but allows us to add box shadow -->
+        <!--* box-shadow: horiztal vertical radius color -->
         <div style="max-width: 600px;background-color: #fafdfe;box-shadow: 0 0 10px rgba(0,0,0,.2">
+
             <!--~ start-preheader -->
+            <!--* used for promotional sales -->
             <!--* styling so it won't show in the email template body -->
+            <!--* it shows after the title of an email when you receive it in the inbox -->
             <!--* mso so microsoft displays at the minimal size -->
             <!--* mso-hide: hides the style decoration -->
             <div style="font-size: 0px;color: #fafdfe;line-height: 1px;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: o;overflow: hidden;mso-hide: all;">
-                <!--* add preheader here - 85-100 characters in length -->
+				<!--* add preheader text here, keep in the range of 85-100 characters in length-->
             </div>
             <!--~ end-preheader -->
 
             <!--? start-Outlook ghost table -->
-            <!--* td padding 0 to remove horizontal padding around the table -->
+            <!--* tells Outlook how the table beneath the conditional statement will display -->
+			<!--* the ghost table will span the entire html email template -->
+			<!--* <td> padding 0 to make sure there is no space between the right/left edges and content -->
             <!--[if (gte mso 9)|(IE)]>
                 <style type="text/css">
                     <table width="600" align="center" style="border-spacing: 0;color: #565656;" role="presentation">
@@ -152,6 +159,7 @@
             <!--~ start-real table -->
             <!--* the only time where font family is mentioned -->
             <!--* "role=presentation" added to every table for screen readers so the machine doesn't try to interpret html inside the email and focuses on the content instead of the table tags-->
+
             <table align="center" style="border-spacing: 0;color: #565656;font-family: 'Lato', sans-serif, Arial, Helvetica!important;background-color: #fafdfe;Margin: 0;padding: 0;width: 100%;max-width: 600px;" role="presentation">
 
 <!--~ START SOCIAL ICONS -->
