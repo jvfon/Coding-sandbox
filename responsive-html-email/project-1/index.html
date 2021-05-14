@@ -222,11 +222,12 @@
                 <!--* use vml(vector markup language) to show gif(or vector images) in microsoft email -->
                 <td background="https://i.ibb.co/hMhVbjT/stats2.gif" width="600" height="332" style="background-position: center top;">
 
-                <!--@ start-Vector Markup Language for MS email client to display-->
-                <!--* Note: rect = rectangular  -->
-                <!--* xmlns:v="urn:schemas-microsoft-com:vml, so it gif displays in microsoft email client -->
-                <!--* v:fill to add bacground image / fill has to be true-->
+                <!--@ start-Vector Markup Language for MS email client to display background properly-->
+                <!--* Note: v:rect = rectangular graphic -->
+                <!--* xmlns:v="urn:schemas-microsoft-com:vml, so it displays gif in microsoft email client -->
+                <!--* v:fill to add bacground image / fill has to be true to add image using v:fill-->
                 <!--* stroke = false / so there are no lines across the vector -->
+                <!--* type tile even though exact dimensions are used -->
                 <!--* textbox so the entire background is available to add content / inset 0 so there is no space between content and background corners-->
 
                 <!--[if (gte mso 9)|(IE)]>
@@ -236,10 +237,11 @@
                 <![endif]-->    
 
                     <!--@ start-background content -->
-                    <!--* cellpadding and cellscpacing to 0 to cover entire background -->
+                    <!--* this table sits on top of the banner -->
+                    <!--* cellpadding and cellscpacing to 0 to cover entire background by removing padding and spacing -->
                     <table class="darkmode-transparent" cellpadding="0" cellspcacing="0" role="presentation">
                         <tr>
-                            <!--* valign = middle and align = center repeated throughout so items are aligned to the center -->
+                            <!--* valign = vertically align to the center and align = center repeated throughout so items are aligned to the center -->
                             <td width="600" align="center" valign="middle">
 
                                 <!--* adding another table to separate it from table rows which will contain the content of the banner image -->
@@ -247,16 +249,18 @@
 
                                     <tr>
                                         <td align="center">
+
+                                            <!--* using the class darkmode-transparent to make sure the background is transparent without the black overlay -->
                                             <table class="darkmode-transparent" role="presentation">
                                                 <tr>
 
                                                     <!--* conditional statement to make sure there is space top and bottom in Outlook  -->
-                                                    <!--* adding a ghost data table with padding -->
+                                                    <!--* adding a ghost data table <td> with padding -->
                                                     <!--[if (gte mso 9)|(IE)]>
                                                         <td style="padding-top: 100px;padding-bottom: 25px;">
                                                     <![endif]-->
 
-                                                        <!--* padding added so the text is not too close to the edge on narrow screens     -->
+                                                        <!--* padding added so the text is not too close to the edge on narrow screens  -->
                                                         <td align="center" style="font-size: 30px;line-heigth: 30px;color: #ffffff;padding: 10px 10px 20px 10px;font-weight: bold;">
                                                             <p style="font-size: 30px;line-heigth: 30px;color: #ffffff;font-weight: bold;">Responsive HTML Email Template</p>
                                                         </td>
@@ -275,10 +279,11 @@
                                     <td align="center">
                                         <table class="darkmode-transparent" cellpadding="0" cellspcacing="0" role="presentation">
                                             <tr>
-                                                <!-- border radius added to td and a -->
+                                                <!--* border radius added to td and a -->
+                                                <!--* bgcolor added to provide the fill for the button so it displays on Outlook -->
                                                 <td style="border-radius: 10px;" bgcolor="#eff8fe">
+                                                    <!--* border radius copied from <td> above -->
                                                     <!--* border added so it button displays on Outlook -->
-                                                    <!--* bg color attribute for Outlook -->
                                                     <!--* display: inline-block so Outlook respects the background color -->
                                                     <a href="https://example.com" target="_blank" style="font-size: 17px; font-weight: bold;text-decoration:none;color:#1e5d7b;background-color: #eff8fe;border:1px solid #eff8fe;border-radius: 10px;padding: 12px 20px;display: inline-block;">VIEW DEMO</a>
                                                 </td>
