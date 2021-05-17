@@ -317,7 +317,9 @@
                         <!--* main table row that contains the 2 columns -->
                         <tr>
                             
+                            <!--* added class "two columns" to identify it and use media tags -->
                             <!--* padding and font size set to zero so the content will fit inside the 300px columns. -->
+                            <!--* text align center to align the column to the center. -->
                             <td class="two-columns" style="padding: 0;font-size: 0;text-align: center;">
 
                                 <!--* start-ghost column for first column-->
@@ -329,6 +331,7 @@
                                 <![endif]-->  
                                 <!--@ start- first column -->
                                 <!--* vertical align and display inline block make columns display next to each other-->
+                                <!--* width 300px same as ghost table -->
                                 <table class="column" style="border-spacing: 0;vertical-align: top;width: 100%;max-width: 300px;display: inline-block;" role="presentation">
                                     <tr>
                                         <td class="padding" style="padding: 20px;">
@@ -339,6 +342,7 @@
                                                 <tr>
                                                     <td>
                                                         <!--* width=260px to leave space for the padding added before -->
+                                                        <!--* max width 260px because the image is larger than 260px -->
                                                         <a href="https://example.com" target="_blank"><img class="two-col-img" src="https://i.ibb.co/Tmg3qbV/man-teal.jpg" alt="" width="260" style="max-width: 260px;border-radius: 8px;" border="0"></a>
                                                     </td>
                                                 </tr>
@@ -356,7 +360,7 @@
                                                 <!--@ end-content -->
                                                 <!--@ start-button -->
                                                 <tr>
-                                                    <!--* padding left 10px to line up with content -->
+                                                    <!--* padding left 10px to line up with paragraph -->
                                                     <td align="left" style="padding-left: 10px;">
                                                         <!--* cellspacing 0 to remove space around the button -->
                                                         <table align="left" border="0" cellspacing="0" style="border-spacing: 0;" role="presentation">
