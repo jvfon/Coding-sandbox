@@ -1,0 +1,85 @@
+body {
+    color: #FFFFFB;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 30vh 0;
+  }
+
+.one__icon {
+  background: rgba(0,0,0,.3); /* makes the icon visible */
+  color: rgba(0,0,0,.3); /* same background and color makes font a little darker */
+  width: 100px;
+  height: 100px;
+  margin: 0 auto; /* puts icon in the middle */
+  border-radius: 50%; /* creates a circle but the but the width and height have to be equal to make a box */
+  /* to center the icon: */
+  display: grid;
+  place-items: center; /*a shorthand property to justify and align items */
+  font-size: 2em;
+}
+
+  
+  .one {
+    background: #FFC145;
+    position: relative;
+  }
+  
+/* .one::after,
+.one::before {
+    position: absolute; 
+    content: '';
+    width: 150px;
+    height: 150px;
+    background: #FFC145;
+    bottom: -1em;
+    z-index: 100;
+} */
+
+.one::after,
+.one::before {
+  position: absolute;
+  content: '';
+  width: 150px;
+  height: 150px;
+  /* background: red; to see what the squares look like */
+  background: #FFC145;
+  bottom: -1em; /* move squares down */
+  z-index: 100; /*so shapes stay on top */
+}
+
+.one::before {
+  right: 50%; /*move square to the right by 50%; */
+  transform: skew(0, 20deg); /*makes the square lean 20 degrees and makes the right and left edge be completely vertical */
+}
+
+.one::after {
+  left: 50%; /*move square to the left by 50%; */
+  transform: skew(0, -20deg); 
+  /* at this point change the background color of the squares to the background color #FFC145; so the squares disapear an your a left with 2 diagonal lines on the center */
+}
+  
+  .two {
+    background: #FF6B6C;
+    position: relative;
+    z-index: 10;
+    
+    /* diagonal line at the bottom of section 2 */
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%); /* to keep the angle of the line constant, the calc function is used. It starts at 100% y-axis and it maintains the same angle as the webpage gets smaller or larger. */
+
+    margin-bottom: -10vw; /* to cover the space left by clip path above */
+  }
+
+.two__image {
+  /* clip-path: circle(40%); can use pixels and %, 50% is 50% of the image */
+  clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%); /* 0 0 is the upper left corner, 100% 0 = upper right corner, 100% 100% = lower right corner, 0 100% = lower left corner */
+
+
+}
+  
+  .three {
+    background: #5B5F97;
+  }

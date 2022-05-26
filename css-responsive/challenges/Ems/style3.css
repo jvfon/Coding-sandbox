@@ -1,0 +1,87 @@
+* { box-sizing: border-box; }
+
+html {
+    font-size: 16px;
+}
+
+body { 
+    margin: 0;
+    font-family: sans-serif;
+} 
+
+.container {
+   /* width: 80%; */
+    /* max-width: 750px; */
+    margin: 0 auto;
+    background: #23424A;
+    color: white;
+    padding: 50px 0; 
+}
+
+.intro-content {
+    width: 50%;
+    margin: 0 25% 0 5%; 
+    /* max-width: 750px; */
+}
+
+.button {
+    margin: 5% 25% 0 5%;
+    padding: 15px 0;
+    background: aqua;
+    border-radius: 8%; 
+    width: 150px;
+    color: #23424A;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.container2 {
+    /* width: 80%; */
+     /* max-width: 750px; */
+    margin: 0 auto;
+    background: #23424A;
+    color: white;
+    padding: 50px 0; 
+}
+
+.intro-content2 {
+    width: 50%;
+    margin: 0 25em 0 5em; /* em references the font size of this element only */ 
+     /* max-width: 750px; */
+}
+
+.intro-content2 .p1 {
+    font-size: 1.5em; /* em looks at the parent font size to set the font-size */
+    /* 1.5em actual size is 1.5 x parent font size */
+}
+
+.intro-content2 .p2 {
+    font-size: 2rem; /* rem looks at the root em font size */ 
+    /* which is 16px on most cases */
+    /* 2rem = 16px x 2 */ 
+}
+
+.button2 {
+    margin: 1.5em 2.5em 0 4em; /* em takes the font size of this element (1.2rem) to calculate space */
+    padding: 15px 0;
+    background: aqua;
+    border-radius: 2%; 
+    width: 200px;
+    color: #23424A;
+    font-size: 1.2rem; /* gets the font size from the root (16px) to calculate this element's font size */
+    font-weight: 700;
+    text-align: center;
+}
+
+.button2:hover {
+    background-color: white;
+    border-color: white;
+}
+
+
+
+
+
+
+

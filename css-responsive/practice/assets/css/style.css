@@ -1,0 +1,166 @@
+/*
+*, *::before, *::after  {  
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+   vertical-align: baseline;
+   box-sizing: border-box;
+} */
+/*
+*, *::before, *::after { 
+   box-sizing: border-box;
+} */
+
+body {
+   margin: 0; /* erases all margin */
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 1.2em; /* increase font 1.2 times the size of basic font size */
+}
+
+img {
+   max-width: 100%; /* to avoid overflow, the image con only ocupy up to 100% of the container */
+}
+
+h1 {
+   font-size: 3em; /* increase the h1 font size 3 times the size of basic font size */
+   margin-top: 0; /* remove the top margin */
+}
+
+.container {
+   background-color: rgb(0, 65, 126);
+   color: #fff;
+   width: 80%; /* only takes 80% of the parent's width */
+   /* display: flex; 
+   margin: 0 auto; */
+   
+}
+
+.row {
+   display: flex; /* makes a container flex. Makes contents expand to take up free space and shrinks elements to prevent overflow */ 
+   justify-content: space-between; /* distribute items evently. First item in on the left(start line) last item is on the right(end line) */
+}
+
+/*
+.col {
+   width: 100%; /* takes up 100% of the parent space 
+}*/
+/*
+.col + .col {
+   margin-left: 30px; 
+} 
+
+.hero {
+   padding: 100px 0; /* padding: space outside a div*/
+      /* 100px top and bottom, 0px right and left sides */
+}
+/*
+.hero__text {
+   width: 60%; /* 60% of the width of the parent *//*
+   border: 2px lime;
+   margin-bottom: 2em;
+}
+
+.hero__image {
+   align-self: flex-start;
+   width: 32%;
+   border: 2px solid orange;
+}
+
+.btn {
+   display: inline-block;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #fff;
+   background-color: rgb(2, 151, 144);
+   padding: .75em 2em;
+   border-radius: 100px;
+}
+
+.btn:hover,
+.btn:focus {
+   opacity: .75; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
